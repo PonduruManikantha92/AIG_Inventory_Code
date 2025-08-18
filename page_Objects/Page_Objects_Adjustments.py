@@ -19,7 +19,7 @@ class HIS_Adjustments:
         self.xpath_for_yes_button_in_inventory_pop_up = "//a[@id='btn_yes_desh']"
 
         self.xpath_for_expired_item_pop_up = "//div[@id='checkalert']//div[@id='popup280']"
-        self.xpath_for_yes_button = "(//footer//a[text()='Yes'])[3]"
+        self.xpath_for_yes_button = "//div[@id='checkalert']//div[@id='popup280']//footer//a[@id='btnYes1']"
 
         self.xpath_for_Item_store_mapping_option = "//body/nav[@id='menu']/ul[@class='mainList']/li[6]"
         self.xpath_for_item_store_adjustments_option = "//ul[@id='collapseMulti24']"
@@ -56,7 +56,7 @@ class HIS_Adjustments:
         inventory_dropdown_option = self.driver.find_element(By.XPATH, self.xpath_for_inventory_option_dropdown)
         inventory_ops = Select(inventory_dropdown_option)
         for i in inventory_ops.options:
-            if i.text.strip() == 'A-3-HDU 1':
+            if i.text.strip() == 'A-3-HDU 2':
                 i.click()
         self.wait.until(expected_conditions.visibility_of_element_located(
             (By.XPATH, self.xpath_for_yes_button_in_inventory_pop_up)))
@@ -99,32 +99,20 @@ class HIS_Adjustments:
         xpath_for_batches_suction_catherer = "//table[@id='tbldrugdtaillist']"
         table_2_elements = self.driver.find_elements(By.XPATH, xpath_for_batches_suction_catherer)
         xpath_of_numbers_comp = "//table[@id='tbldrugdtaillist']//td[text()='NOS']"
-        try:
-            for option in table_2_elements:
-                numbers_comp = option.find_elements(By.XPATH, xpath_of_numbers_comp)
-                for element in numbers_comp:
-                    if element.is_displayed():
-                        self.driver.execute_script("arguments[0].click();", element)
-            time.sleep(8)
-            search_option.clear()
-        except:
-            self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_expired_item_pop_up)))
-            self.driver.find_element(By.XPATH, self.xpath_for_expired_item_pop_up)
-            self.wait.until(expected_conditions.visibility_of_element_located(By.XPATH, self.xpath_for_yes_button))
-            button_yes = self.driver.find_element(By.XPATH, self.xpath_for_yes_button)
-            button_yes.click()
-
-            xpath_for_batches_suction_catherer = "//table[@id='tbldrugdtaillist']"
-            table_2_elements = self.driver.find_elements(By.XPATH, xpath_for_batches_suction_catherer)
-            xpath_of_numbers_comp = "//table[@id='tbldrugdtaillist']//td[text()='NOS']"
-
-            for option in table_2_elements:
-                numbers_comp = option.find_elements(By.XPATH, xpath_of_numbers_comp)
-                for element in numbers_comp:
-                    if element.is_displayed():
-                        self.driver.execute_script("arguments[0].click();", element)
-            time.sleep(8)
-            search_option.clear()
+        # try:
+        for option in table_2_elements:
+            numbers_comp = option.find_elements(By.XPATH, xpath_of_numbers_comp)
+            for element in numbers_comp:
+                if element.is_displayed():
+                    self.driver.execute_script("arguments[0].click();", element)
+                    pop_up = self.driver.find_element(By.XPATH, self.xpath_for_expired_item_pop_up)
+                    if pop_up.is_displayed():
+                        button_yes = self.driver.find_element(By.XPATH, self.xpath_for_yes_button)
+                        self.driver.execute_script("arguments[0].click();", button_yes)
+                    else:
+                        pass
+        time.sleep(8)
+        search_option.clear()
 
     def item_adj_table_two(self):
         # Wait for table to be visible

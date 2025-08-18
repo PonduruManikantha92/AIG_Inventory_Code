@@ -11,6 +11,12 @@ class TestAdjustments(TestHIS_Login_Page):
         # Load once, reuse
         data_one = pandas_excel('Indent_Items')
         data_adjustments = pandas_excel('Adjustments')
+        # Drop rows where all values are NaN
+        data_adjustments = data_adjustments.dropna(how="all")
+        # Optional: Drop rows where item_name column is NaN
+        if "item_name" in data_adjustments.columns:
+            data_adjustments = data_adjustments.dropna(subset=["item_name"])
+
         return {'items': data_one, 'adjust': data_adjustments}
 
     def test_adjustments(self, test_his_login_page, adjustment_data):

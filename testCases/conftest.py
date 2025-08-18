@@ -67,7 +67,6 @@ def pytest_metadata(metadata):
 def pandas_excel():
     def _load_data(sheet_name):
         file_path = r"C:\Users\10013887\Project_AIG\TestData\HIS_DATA_WorkBook.xlsx"
-        # data_one = pd.read_excel(file_path, sheet_name= 'Indent_Items')
         return pd.read_excel(file_path, sheet_name=sheet_name)
     return _load_data
 
