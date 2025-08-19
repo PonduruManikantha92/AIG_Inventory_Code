@@ -72,5 +72,6 @@ class TestHIS_Login_Page:
         wait.until(expected_conditions.visibility_of_element_located(
             (By.XPATH, login_page_object.xpath_for_pop_up)))
         login_page_object.Click_yes_button_in_Pop_up()
+
         return browser_setup
 

@@ -5398,3 +5398,1353 @@
 2025-08-16 15:29:24,609 - root - INFO - *************** Process Discount *********************
 2025-08-16 15:29:24,609 - root - INFO - *************** Process Discount *********************
 2025-08-16 15:29:24,609 - root - INFO - *************** Process Discount *********************
+2025-08-18 13:56:50,199 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 13:56:51,213 - root - INFO - *********Logging and saving username status*************
+2025-08-18 13:56:51,745 - root - INFO - *********Logging and saving password status*************
+2025-08-18 13:56:52,212 - root - INFO - *********Clicking submit button*************
+2025-08-18 13:56:52,703 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 13:56:53,407 - root - INFO - *********Select the Facility*************
+2025-08-18 13:56:56,065 - root - INFO - *******Click Inventory Option********
+2025-08-18 13:56:56,541 - root - INFO - *******Select_options_from_inventory_dropdown*******
+2025-08-18 13:57:10,195 - root - INFO - *******item adjustment*******
+2025-08-18 15:00:02,334 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 15:00:02,334 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 15:00:03,777 - root - INFO - *********Logging and saving username status*************
+2025-08-18 15:00:03,777 - root - INFO - *********Logging and saving username status*************
+2025-08-18 15:00:04,385 - root - INFO - *********Logging and saving password status*************
+2025-08-18 15:00:04,385 - root - INFO - *********Logging and saving password status*************
+2025-08-18 15:00:04,802 - root - INFO - *********Clicking submit button*************
+2025-08-18 15:00:04,802 - root - INFO - *********Clicking submit button*************
+2025-08-18 15:00:05,283 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 15:00:05,283 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 15:00:05,985 - root - INFO - *********Select Facility*************
+2025-08-18 15:00:05,985 - root - INFO - *********Select Facility*************
+2025-08-18 15:00:09,221 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 15:00:09,221 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 15:00:09,403 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 15:00:09,403 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 15:00:12,044 - root - INFO - ********* Click the add patient option *************
+2025-08-18 15:00:12,044 - root - INFO - ********* Click the add patient option *************
+2025-08-18 15:00:12,676 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 15:00:12,676 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 15:00:20,503 - root - INFO - ********* Select a Title *************
+2025-08-18 15:00:20,503 - root - INFO - ********* Select a Title *************
+2025-08-18 15:00:21,455 - root - INFO - ********* Fill the firstname *************
+2025-08-18 15:00:21,455 - root - INFO - ********* Fill the firstname *************
+2025-08-18 15:00:21,687 - root - INFO - ********* Select a Gender *************
+2025-08-18 15:00:21,687 - root - INFO - ********* Select a Gender *************
+2025-08-18 15:00:21,814 - root - INFO - ********* Click the age *************
+2025-08-18 15:00:21,814 - root - INFO - ********* Click the age *************
+2025-08-18 15:00:22,069 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 15:00:22,069 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 15:00:22,210 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 15:00:22,210 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 15:00:22,388 - root - INFO - ********* Enter Address *************
+2025-08-18 15:00:22,388 - root - INFO - ********* Enter Address *************
+2025-08-18 15:00:22,566 - root - INFO - ********* Enter Locality *************
+2025-08-18 15:00:22,566 - root - INFO - ********* Enter Locality *************
+2025-08-18 15:00:22,725 - root - INFO - ********* Enter source option *************
+2025-08-18 15:00:22,725 - root - INFO - ********* Enter source option *************
+2025-08-18 15:00:23,043 - root - INFO - ********* Click register button *************
+2025-08-18 15:00:23,043 - root - INFO - ********* Click register button *************
+2025-08-18 15:00:23,689 - root - INFO - ********* Patient Details *************
+2025-08-18 15:00:23,689 - root - INFO - ********* Patient Details *************
+2025-08-18 15:00:23,750 - root - INFO - ********* Save Patient Details *************
+2025-08-18 15:00:23,750 - root - INFO - ********* Save Patient Details *************
+2025-08-18 15:00:25,316 - root - INFO - ********* Successful message *************
+2025-08-18 15:00:25,316 - root - INFO - ********* Successful message *************
+2025-08-18 15:00:25,355 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 15:00:25,355 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 15:00:35,854 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 15:00:35,854 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 15:00:35,854 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 15:00:36,949 - root - INFO - *************** Referred By *********************
+2025-08-18 15:00:36,949 - root - INFO - *************** Referred By *********************
+2025-08-18 15:00:36,949 - root - INFO - *************** Referred By *********************
+2025-08-18 15:00:39,355 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 15:00:39,355 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 15:00:39,355 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 15:00:52,071 - root - INFO - *************** Close the deposit pop up *********************
+2025-08-18 15:00:52,071 - root - INFO - *************** Close the deposit pop up *********************
+2025-08-18 15:00:52,071 - root - INFO - *************** Close the deposit pop up *********************
+2025-08-18 15:01:04,803 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 15:01:04,803 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 15:01:04,803 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 15:01:07,247 - root - INFO - *************** Process Discount *********************
+2025-08-18 15:01:07,247 - root - INFO - *************** Process Discount *********************
+2025-08-18 15:01:07,247 - root - INFO - *************** Process Discount *********************
+2025-08-18 15:04:00,176 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 15:04:00,176 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 15:04:00,401 - root - INFO - *********Logging and saving username status*************
+2025-08-18 15:04:00,401 - root - INFO - *********Logging and saving username status*************
+2025-08-18 15:04:01,658 - root - INFO - *********Logging and saving password status*************
+2025-08-18 15:04:01,658 - root - INFO - *********Logging and saving password status*************
+2025-08-18 15:04:02,170 - root - INFO - *********Clicking submit button*************
+2025-08-18 15:04:02,170 - root - INFO - *********Clicking submit button*************
+2025-08-18 15:04:02,665 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 15:04:02,665 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 15:04:03,112 - root - INFO - *********Select Facility*************
+2025-08-18 15:04:03,112 - root - INFO - *********Select Facility*************
+2025-08-18 15:04:07,246 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 15:04:07,246 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 15:04:07,535 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 15:04:07,535 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 15:04:09,739 - root - INFO - ********* Click the add patient option *************
+2025-08-18 15:04:09,739 - root - INFO - ********* Click the add patient option *************
+2025-08-18 15:04:10,311 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 15:04:10,311 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 15:04:16,365 - root - INFO - ********* Select a Title *************
+2025-08-18 15:04:16,365 - root - INFO - ********* Select a Title *************
+2025-08-18 15:04:16,942 - root - INFO - ********* Fill the firstname *************
+2025-08-18 15:04:16,942 - root - INFO - ********* Fill the firstname *************
+2025-08-18 15:04:17,161 - root - INFO - ********* Select a Gender *************
+2025-08-18 15:04:17,161 - root - INFO - ********* Select a Gender *************
+2025-08-18 15:04:17,301 - root - INFO - ********* Click the age *************
+2025-08-18 15:04:17,301 - root - INFO - ********* Click the age *************
+2025-08-18 15:04:17,568 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 15:04:17,568 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 15:04:17,718 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 15:04:17,718 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 15:04:17,910 - root - INFO - ********* Enter Address *************
+2025-08-18 15:04:17,910 - root - INFO - ********* Enter Address *************
+2025-08-18 15:04:18,109 - root - INFO - ********* Enter Locality *************
+2025-08-18 15:04:18,109 - root - INFO - ********* Enter Locality *************
+2025-08-18 15:04:18,278 - root - INFO - ********* Enter source option *************
+2025-08-18 15:04:18,278 - root - INFO - ********* Enter source option *************
+2025-08-18 15:04:18,649 - root - INFO - ********* Click register button *************
+2025-08-18 15:04:18,649 - root - INFO - ********* Click register button *************
+2025-08-18 15:04:18,773 - root - INFO - ********* Patient Details *************
+2025-08-18 15:04:18,773 - root - INFO - ********* Patient Details *************
+2025-08-18 15:04:18,842 - root - INFO - ********* Save Patient Details *************
+2025-08-18 15:04:18,842 - root - INFO - ********* Save Patient Details *************
+2025-08-18 15:04:20,097 - root - INFO - ********* Successful message *************
+2025-08-18 15:04:20,097 - root - INFO - ********* Successful message *************
+2025-08-18 15:04:20,134 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 15:04:20,134 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 15:04:29,104 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 15:04:29,104 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 15:04:29,104 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 15:04:29,977 - root - INFO - *************** Referred By *********************
+2025-08-18 15:04:29,977 - root - INFO - *************** Referred By *********************
+2025-08-18 15:04:29,977 - root - INFO - *************** Referred By *********************
+2025-08-18 15:04:32,335 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 15:04:32,335 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 15:04:32,335 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 15:04:44,677 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 15:04:44,677 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 15:04:44,677 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 15:04:47,326 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 15:04:47,326 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 15:04:47,326 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 15:04:49,876 - root - INFO - *************** Process Payment  *********************
+2025-08-18 15:04:49,876 - root - INFO - *************** Process Payment  *********************
+2025-08-18 15:04:49,876 - root - INFO - *************** Process Payment  *********************
+2025-08-18 15:04:52,198 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 15:04:52,198 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 15:04:52,198 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 16:42:54,511 - selenium.webdriver.common.selenium_manager - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-08-18 16:42:54,511 - selenium.webdriver.common.selenium_manager - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-08-18 16:42:56,422 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 16:42:56,422 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 16:42:57,102 - root - INFO - *********Logging and saving username status*************
+2025-08-18 16:42:57,102 - root - INFO - *********Logging and saving username status*************
+2025-08-18 16:42:57,489 - root - INFO - *********Logging and saving password status*************
+2025-08-18 16:42:57,489 - root - INFO - *********Logging and saving password status*************
+2025-08-18 16:42:57,856 - root - INFO - *********Clicking submit button*************
+2025-08-18 16:42:57,856 - root - INFO - *********Clicking submit button*************
+2025-08-18 16:42:58,277 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 16:42:58,277 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 16:42:58,619 - root - INFO - *********Select Facility*************
+2025-08-18 16:42:58,619 - root - INFO - *********Select Facility*************
+2025-08-18 16:43:00,397 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 16:43:00,397 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 16:43:00,571 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 16:43:00,571 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 16:43:02,626 - root - INFO - ********* Click the add patient option *************
+2025-08-18 16:43:02,626 - root - INFO - ********* Click the add patient option *************
+2025-08-18 16:43:03,179 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 16:43:03,179 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 16:43:07,590 - root - INFO - ********* Select a Title *************
+2025-08-18 16:43:07,590 - root - INFO - ********* Select a Title *************
+2025-08-18 16:43:07,903 - root - INFO - ********* Fill the firstname *************
+2025-08-18 16:43:07,903 - root - INFO - ********* Fill the firstname *************
+2025-08-18 16:43:08,019 - root - INFO - ********* Select a Gender *************
+2025-08-18 16:43:08,019 - root - INFO - ********* Select a Gender *************
+2025-08-18 16:43:08,124 - root - INFO - ********* Click the age *************
+2025-08-18 16:43:08,124 - root - INFO - ********* Click the age *************
+2025-08-18 16:43:08,278 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 16:43:08,278 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 16:43:08,380 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 16:43:08,380 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 16:43:08,491 - root - INFO - ********* Enter Address *************
+2025-08-18 16:43:08,491 - root - INFO - ********* Enter Address *************
+2025-08-18 16:43:08,607 - root - INFO - ********* Enter Locality *************
+2025-08-18 16:43:08,607 - root - INFO - ********* Enter Locality *************
+2025-08-18 16:43:08,717 - root - INFO - ********* Enter source option *************
+2025-08-18 16:43:08,717 - root - INFO - ********* Enter source option *************
+2025-08-18 16:43:08,942 - root - INFO - ********* Click register button *************
+2025-08-18 16:43:08,942 - root - INFO - ********* Click register button *************
+2025-08-18 16:43:09,607 - root - INFO - ********* Patient Details *************
+2025-08-18 16:43:09,607 - root - INFO - ********* Patient Details *************
+2025-08-18 16:43:09,644 - root - INFO - ********* Save Patient Details *************
+2025-08-18 16:43:09,644 - root - INFO - ********* Save Patient Details *************
+2025-08-18 16:43:10,335 - root - INFO - ********* Successful message *************
+2025-08-18 16:43:10,335 - root - INFO - ********* Successful message *************
+2025-08-18 16:43:10,377 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 16:43:10,377 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 16:43:19,523 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 16:43:19,523 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 16:43:19,523 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 16:43:20,173 - root - INFO - *************** Referred By *********************
+2025-08-18 16:43:20,173 - root - INFO - *************** Referred By *********************
+2025-08-18 16:43:20,173 - root - INFO - *************** Referred By *********************
+2025-08-18 16:43:22,496 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 16:43:22,496 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 16:43:22,496 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 16:43:35,076 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 16:43:35,076 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 16:43:35,076 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 16:43:37,253 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 16:43:37,253 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 16:43:37,253 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 16:43:39,549 - root - INFO - *************** Process Payment  *********************
+2025-08-18 16:43:39,549 - root - INFO - *************** Process Payment  *********************
+2025-08-18 16:43:39,549 - root - INFO - *************** Process Payment  *********************
+2025-08-18 16:43:41,777 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 16:43:41,777 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 16:43:41,777 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 16:43:47,033 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 16:43:47,033 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 16:43:47,033 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:06:31,699 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 17:06:31,699 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 17:06:32,111 - root - INFO - *********Logging and saving username status*************
+2025-08-18 17:06:32,111 - root - INFO - *********Logging and saving username status*************
+2025-08-18 17:06:32,456 - root - INFO - *********Logging and saving password status*************
+2025-08-18 17:06:32,456 - root - INFO - *********Logging and saving password status*************
+2025-08-18 17:06:32,800 - root - INFO - *********Clicking submit button*************
+2025-08-18 17:06:32,800 - root - INFO - *********Clicking submit button*************
+2025-08-18 17:06:33,199 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 17:06:33,199 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 17:06:33,561 - root - INFO - *********Select Facility*************
+2025-08-18 17:06:33,561 - root - INFO - *********Select Facility*************
+2025-08-18 17:06:42,686 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:06:42,686 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:06:42,686 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:06:46,770 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185E1450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:46,770 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185E1450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:46,770 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185E1450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:50,872 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185E1090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:50,872 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185E1090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:50,872 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185E1090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:54,944 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F718674510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:54,944 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F718674510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:54,944 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F718674510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:06:59,196 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 17:06:59,196 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 17:06:59,196 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 17:07:03,256 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185CF770>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:03,256 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185CF770>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:03,256 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7185CF770>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:07,328 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186D9260>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:07,328 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186D9260>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:07,328 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186D9260>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:11,388 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186D99D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:11,388 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186D99D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:11,388 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186D99D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc/element
+2025-08-18 17:07:19,638 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DA8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:07:19,638 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DA8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:07:19,638 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DA8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:07:23,707 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:07:23,707 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:07:23,707 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:07:27,791 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DAF10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:07:27,791 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DAF10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:07:27,791 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7186DAF10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b97ece7693a994988b4dfd2097a0e4bc
+2025-08-18 17:09:03,367 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 17:09:03,367 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 17:09:04,011 - root - INFO - *********Logging and saving username status*************
+2025-08-18 17:09:04,011 - root - INFO - *********Logging and saving username status*************
+2025-08-18 17:09:04,370 - root - INFO - *********Logging and saving password status*************
+2025-08-18 17:09:04,370 - root - INFO - *********Logging and saving password status*************
+2025-08-18 17:09:04,724 - root - INFO - *********Clicking submit button*************
+2025-08-18 17:09:04,724 - root - INFO - *********Clicking submit button*************
+2025-08-18 17:09:05,122 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 17:09:05,122 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 17:09:05,417 - root - INFO - *********Select Facility*************
+2025-08-18 17:09:05,417 - root - INFO - *********Select Facility*************
+2025-08-18 17:09:07,255 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 17:09:07,255 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 17:09:07,407 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 17:09:07,407 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 17:09:09,006 - root - INFO - ********* Click the add patient option *************
+2025-08-18 17:09:09,006 - root - INFO - ********* Click the add patient option *************
+2025-08-18 17:09:09,593 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 17:09:09,593 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 17:09:14,346 - root - INFO - ********* Select a Title *************
+2025-08-18 17:09:14,346 - root - INFO - ********* Select a Title *************
+2025-08-18 17:09:14,656 - root - INFO - ********* Fill the firstname *************
+2025-08-18 17:09:14,656 - root - INFO - ********* Fill the firstname *************
+2025-08-18 17:09:14,783 - root - INFO - ********* Select a Gender *************
+2025-08-18 17:09:14,783 - root - INFO - ********* Select a Gender *************
+2025-08-18 17:09:14,874 - root - INFO - ********* Click the age *************
+2025-08-18 17:09:14,874 - root - INFO - ********* Click the age *************
+2025-08-18 17:09:15,027 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 17:09:15,027 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 17:09:15,144 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 17:09:15,144 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 17:09:15,254 - root - INFO - ********* Enter Address *************
+2025-08-18 17:09:15,254 - root - INFO - ********* Enter Address *************
+2025-08-18 17:09:15,380 - root - INFO - ********* Enter Locality *************
+2025-08-18 17:09:15,380 - root - INFO - ********* Enter Locality *************
+2025-08-18 17:09:15,480 - root - INFO - ********* Enter source option *************
+2025-08-18 17:09:15,480 - root - INFO - ********* Enter source option *************
+2025-08-18 17:09:15,721 - root - INFO - ********* Click register button *************
+2025-08-18 17:09:15,721 - root - INFO - ********* Click register button *************
+2025-08-18 17:09:16,357 - root - INFO - ********* Patient Details *************
+2025-08-18 17:09:16,357 - root - INFO - ********* Patient Details *************
+2025-08-18 17:09:16,395 - root - INFO - ********* Save Patient Details *************
+2025-08-18 17:09:16,395 - root - INFO - ********* Save Patient Details *************
+2025-08-18 17:09:17,077 - root - INFO - ********* Successful message *************
+2025-08-18 17:09:17,077 - root - INFO - ********* Successful message *************
+2025-08-18 17:09:17,109 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 17:09:17,109 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 17:09:26,865 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:09:26,865 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:09:26,865 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:09:27,501 - root - INFO - *************** Referred By *********************
+2025-08-18 17:09:27,501 - root - INFO - *************** Referred By *********************
+2025-08-18 17:09:27,501 - root - INFO - *************** Referred By *********************
+2025-08-18 17:09:29,751 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 17:09:29,751 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 17:09:29,751 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 17:09:42,452 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 17:09:42,452 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 17:09:42,452 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 17:09:44,650 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 17:09:44,650 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 17:09:44,650 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 17:09:46,922 - root - INFO - *************** Process Payment  *********************
+2025-08-18 17:09:46,922 - root - INFO - *************** Process Payment  *********************
+2025-08-18 17:09:46,922 - root - INFO - *************** Process Payment  *********************
+2025-08-18 17:09:49,116 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 17:09:49,116 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 17:09:49,116 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 17:09:54,306 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 17:09:54,306 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 17:09:54,306 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 17:09:54,784 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 17:09:54,784 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 17:09:54,784 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 17:10:26,692 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:10:26,692 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:10:26,692 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 17:10:27,349 - root - INFO - *************** Referred By *********************
+2025-08-18 17:10:27,349 - root - INFO - *************** Referred By *********************
+2025-08-18 17:10:27,349 - root - INFO - *************** Referred By *********************
+2025-08-18 17:10:29,678 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 17:10:29,678 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 17:10:29,678 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 17:10:42,380 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 17:10:42,380 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 17:10:42,380 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 17:10:44,648 - root - INFO - *************** Process Discount *********************
+2025-08-18 17:10:44,648 - root - INFO - *************** Process Discount *********************
+2025-08-18 17:10:44,648 - root - INFO - *************** Process Discount *********************
+2025-08-18 18:30:50,034 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 18:30:50,034 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 18:30:50,792 - root - INFO - *********Logging and saving username status*************
+2025-08-18 18:30:50,792 - root - INFO - *********Logging and saving username status*************
+2025-08-18 18:30:51,136 - root - INFO - *********Logging and saving password status*************
+2025-08-18 18:30:51,136 - root - INFO - *********Logging and saving password status*************
+2025-08-18 18:30:51,457 - root - INFO - *********Clicking submit button*************
+2025-08-18 18:30:51,457 - root - INFO - *********Clicking submit button*************
+2025-08-18 18:30:51,838 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 18:30:51,838 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 18:30:52,260 - root - INFO - *********Select Facility*************
+2025-08-18 18:30:52,260 - root - INFO - *********Select Facility*************
+2025-08-18 18:30:55,481 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 18:30:55,481 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 18:30:55,672 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 18:30:55,672 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 18:30:57,862 - root - INFO - ********* Click the add patient option *************
+2025-08-18 18:30:57,862 - root - INFO - ********* Click the add patient option *************
+2025-08-18 18:30:58,341 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 18:30:58,341 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 18:31:02,675 - root - INFO - ********* Select a Title *************
+2025-08-18 18:31:02,675 - root - INFO - ********* Select a Title *************
+2025-08-18 18:31:02,984 - root - INFO - ********* Fill the firstname *************
+2025-08-18 18:31:02,984 - root - INFO - ********* Fill the firstname *************
+2025-08-18 18:31:03,083 - root - INFO - ********* Select a Gender *************
+2025-08-18 18:31:03,083 - root - INFO - ********* Select a Gender *************
+2025-08-18 18:31:03,179 - root - INFO - ********* Click the age *************
+2025-08-18 18:31:03,179 - root - INFO - ********* Click the age *************
+2025-08-18 18:31:03,336 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 18:31:03,336 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 18:31:03,451 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 18:31:03,451 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 18:31:03,564 - root - INFO - ********* Enter Address *************
+2025-08-18 18:31:03,564 - root - INFO - ********* Enter Address *************
+2025-08-18 18:31:03,684 - root - INFO - ********* Enter Locality *************
+2025-08-18 18:31:03,684 - root - INFO - ********* Enter Locality *************
+2025-08-18 18:31:03,791 - root - INFO - ********* Enter source option *************
+2025-08-18 18:31:03,791 - root - INFO - ********* Enter source option *************
+2025-08-18 18:31:04,011 - root - INFO - ********* Click register button *************
+2025-08-18 18:31:04,011 - root - INFO - ********* Click register button *************
+2025-08-18 18:31:04,169 - root - INFO - ********* Patient Details *************
+2025-08-18 18:31:04,169 - root - INFO - ********* Patient Details *************
+2025-08-18 18:31:04,206 - root - INFO - ********* Save Patient Details *************
+2025-08-18 18:31:04,206 - root - INFO - ********* Save Patient Details *************
+2025-08-18 18:31:05,557 - root - INFO - ********* Successful message *************
+2025-08-18 18:31:05,557 - root - INFO - ********* Successful message *************
+2025-08-18 18:31:05,600 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 18:31:05,600 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 18:31:14,626 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:31:14,626 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:31:14,626 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:31:15,247 - root - INFO - *************** Referred By *********************
+2025-08-18 18:31:15,247 - root - INFO - *************** Referred By *********************
+2025-08-18 18:31:15,247 - root - INFO - *************** Referred By *********************
+2025-08-18 18:31:17,538 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:31:17,538 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:31:17,538 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:31:30,260 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:31:30,260 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:31:30,260 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:31:32,478 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:31:32,478 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:31:32,478 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:31:34,773 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:31:34,773 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:31:34,773 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:31:36,959 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:31:36,959 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:31:36,959 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:31:42,240 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 18:31:42,240 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 18:31:42,240 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 18:31:42,595 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 18:31:42,595 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 18:31:42,595 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 18:32:14,677 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:32:14,677 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:32:14,677 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:32:15,295 - root - INFO - *************** Referred By *********************
+2025-08-18 18:32:15,295 - root - INFO - *************** Referred By *********************
+2025-08-18 18:32:15,295 - root - INFO - *************** Referred By *********************
+2025-08-18 18:32:17,572 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:32:17,572 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:32:17,572 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:32:29,808 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 18:32:29,808 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 18:32:29,808 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 18:32:32,059 - root - INFO - *************** Process Discount *********************
+2025-08-18 18:32:32,059 - root - INFO - *************** Process Discount *********************
+2025-08-18 18:32:32,059 - root - INFO - *************** Process Discount *********************
+2025-08-18 18:32:34,929 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:32:34,929 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:32:34,929 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:32:37,192 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:32:37,192 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:32:37,192 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:32:39,458 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:32:39,458 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:32:39,458 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:32:41,656 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:32:41,656 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:32:41,656 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:56:13,923 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 18:56:13,923 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 18:56:15,230 - root - INFO - *********Logging and saving username status*************
+2025-08-18 18:56:15,230 - root - INFO - *********Logging and saving username status*************
+2025-08-18 18:56:15,928 - root - INFO - *********Logging and saving password status*************
+2025-08-18 18:56:15,928 - root - INFO - *********Logging and saving password status*************
+2025-08-18 18:56:16,510 - root - INFO - *********Clicking submit button*************
+2025-08-18 18:56:16,510 - root - INFO - *********Clicking submit button*************
+2025-08-18 18:56:17,033 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 18:56:17,033 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 18:56:17,551 - root - INFO - *********Select Facility*************
+2025-08-18 18:56:17,551 - root - INFO - *********Select Facility*************
+2025-08-18 18:56:19,562 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 18:56:19,562 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 18:56:19,887 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 18:56:19,887 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 18:56:21,930 - root - INFO - ********* Click the add patient option *************
+2025-08-18 18:56:21,930 - root - INFO - ********* Click the add patient option *************
+2025-08-18 18:56:22,399 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 18:56:22,399 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 18:56:28,211 - root - INFO - ********* Select a Title *************
+2025-08-18 18:56:28,211 - root - INFO - ********* Select a Title *************
+2025-08-18 18:56:30,215 - root - INFO - ********* Fill the firstname *************
+2025-08-18 18:56:30,215 - root - INFO - ********* Fill the firstname *************
+2025-08-18 18:56:30,576 - root - INFO - ********* Select a Gender *************
+2025-08-18 18:56:30,576 - root - INFO - ********* Select a Gender *************
+2025-08-18 18:56:30,748 - root - INFO - ********* Click the age *************
+2025-08-18 18:56:30,748 - root - INFO - ********* Click the age *************
+2025-08-18 18:56:31,056 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 18:56:31,056 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 18:56:31,249 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 18:56:31,249 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 18:56:31,470 - root - INFO - ********* Enter Address *************
+2025-08-18 18:56:31,470 - root - INFO - ********* Enter Address *************
+2025-08-18 18:56:31,760 - root - INFO - ********* Enter Locality *************
+2025-08-18 18:56:31,760 - root - INFO - ********* Enter Locality *************
+2025-08-18 18:56:32,029 - root - INFO - ********* Enter source option *************
+2025-08-18 18:56:32,029 - root - INFO - ********* Enter source option *************
+2025-08-18 18:56:32,562 - root - INFO - ********* Click register button *************
+2025-08-18 18:56:32,562 - root - INFO - ********* Click register button *************
+2025-08-18 18:56:33,294 - root - INFO - ********* Patient Details *************
+2025-08-18 18:56:33,294 - root - INFO - ********* Patient Details *************
+2025-08-18 18:56:33,393 - root - INFO - ********* Save Patient Details *************
+2025-08-18 18:56:33,393 - root - INFO - ********* Save Patient Details *************
+2025-08-18 18:56:34,340 - root - INFO - ********* Successful message *************
+2025-08-18 18:56:34,340 - root - INFO - ********* Successful message *************
+2025-08-18 18:56:34,416 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 18:56:34,416 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 18:56:43,869 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:56:43,869 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:56:43,869 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:56:44,833 - root - INFO - *************** Referred By *********************
+2025-08-18 18:56:44,833 - root - INFO - *************** Referred By *********************
+2025-08-18 18:56:44,833 - root - INFO - *************** Referred By *********************
+2025-08-18 18:56:45,275 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:56:45,275 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:56:45,275 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:56:56,246 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:56:56,246 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:56:56,246 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 18:56:56,650 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:56:56,650 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:56:56,650 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 18:56:57,263 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:56:57,263 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:56:57,263 - root - INFO - *************** Process Payment  *********************
+2025-08-18 18:56:57,683 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:56:57,683 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:56:57,683 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 18:57:03,615 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 18:57:03,615 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 18:57:03,615 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 18:57:04,390 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 18:57:04,390 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 18:57:04,390 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 18:57:35,940 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:57:35,940 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:57:35,940 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 18:57:36,745 - root - INFO - *************** Referred By *********************
+2025-08-18 18:57:36,745 - root - INFO - *************** Referred By *********************
+2025-08-18 18:57:36,745 - root - INFO - *************** Referred By *********************
+2025-08-18 18:57:37,208 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:57:37,208 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:57:37,208 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 18:57:47,541 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 18:57:47,541 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 18:57:47,541 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 18:57:47,912 - root - INFO - *************** Process Discount *********************
+2025-08-18 18:57:47,912 - root - INFO - *************** Process Discount *********************
+2025-08-18 18:57:47,912 - root - INFO - *************** Process Discount *********************
+2025-08-18 19:03:57,997 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 19:03:57,997 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-18 19:03:58,770 - root - INFO - *********Logging and saving username status*************
+2025-08-18 19:03:58,770 - root - INFO - *********Logging and saving username status*************
+2025-08-18 19:03:59,407 - root - INFO - *********Logging and saving password status*************
+2025-08-18 19:03:59,407 - root - INFO - *********Logging and saving password status*************
+2025-08-18 19:03:59,847 - root - INFO - *********Clicking submit button*************
+2025-08-18 19:03:59,847 - root - INFO - *********Clicking submit button*************
+2025-08-18 19:04:00,398 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 19:04:00,398 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-18 19:04:00,837 - root - INFO - *********Select Facility*************
+2025-08-18 19:04:00,837 - root - INFO - *********Select Facility*************
+2025-08-18 19:04:03,109 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 19:04:03,109 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-18 19:04:03,333 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 19:04:03,333 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-18 19:04:05,807 - root - INFO - ********* Click the add patient option *************
+2025-08-18 19:04:05,807 - root - INFO - ********* Click the add patient option *************
+2025-08-18 19:04:05,925 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 19:04:05,925 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-18 19:04:11,097 - root - INFO - ********* Select a Title *************
+2025-08-18 19:04:11,097 - root - INFO - ********* Select a Title *************
+2025-08-18 19:04:11,545 - root - INFO - ********* Fill the firstname *************
+2025-08-18 19:04:11,545 - root - INFO - ********* Fill the firstname *************
+2025-08-18 19:04:11,855 - root - INFO - ********* Select a Gender *************
+2025-08-18 19:04:11,855 - root - INFO - ********* Select a Gender *************
+2025-08-18 19:04:12,897 - root - INFO - ********* Click the age *************
+2025-08-18 19:04:12,897 - root - INFO - ********* Click the age *************
+2025-08-18 19:04:13,523 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 19:04:13,523 - root - INFO - ********* Select status of Marriage *************
+2025-08-18 19:04:13,716 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 19:04:13,716 - root - INFO - ********* Enter the mobile number *************
+2025-08-18 19:04:13,895 - root - INFO - ********* Enter Address *************
+2025-08-18 19:04:13,895 - root - INFO - ********* Enter Address *************
+2025-08-18 19:04:14,089 - root - INFO - ********* Enter Locality *************
+2025-08-18 19:04:14,089 - root - INFO - ********* Enter Locality *************
+2025-08-18 19:04:14,245 - root - INFO - ********* Enter source option *************
+2025-08-18 19:04:14,245 - root - INFO - ********* Enter source option *************
+2025-08-18 19:04:14,588 - root - INFO - ********* Click register button *************
+2025-08-18 19:04:14,588 - root - INFO - ********* Click register button *************
+2025-08-18 19:04:15,315 - root - INFO - ********* Patient Details *************
+2025-08-18 19:04:15,315 - root - INFO - ********* Patient Details *************
+2025-08-18 19:04:15,374 - root - INFO - ********* Save Patient Details *************
+2025-08-18 19:04:15,374 - root - INFO - ********* Save Patient Details *************
+2025-08-18 19:04:16,267 - root - INFO - ********* Successful message *************
+2025-08-18 19:04:16,267 - root - INFO - ********* Successful message *************
+2025-08-18 19:04:16,318 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 19:04:16,318 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-18 19:04:25,638 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 19:04:25,638 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 19:04:25,638 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 19:04:26,572 - root - INFO - *************** Referred By *********************
+2025-08-18 19:04:26,572 - root - INFO - *************** Referred By *********************
+2025-08-18 19:04:26,572 - root - INFO - *************** Referred By *********************
+2025-08-18 19:04:26,946 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 19:04:26,946 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 19:04:26,946 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 19:04:37,769 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 19:04:37,769 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 19:04:37,769 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 19:04:37,965 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 19:04:37,965 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 19:04:37,965 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-18 19:04:38,383 - root - INFO - *************** Process Payment  *********************
+2025-08-18 19:04:38,383 - root - INFO - *************** Process Payment  *********************
+2025-08-18 19:04:38,383 - root - INFO - *************** Process Payment  *********************
+2025-08-18 19:04:38,698 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 19:04:38,698 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 19:04:38,698 - root - INFO - *************** Print the Bill  *********************
+2025-08-18 19:04:44,489 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 19:04:44,489 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 19:04:44,489 - root - INFO - ************ Click the refresh button ******************
+2025-08-18 19:04:44,980 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 19:04:44,980 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 19:04:44,980 - root - INFO - ************ Enter the UHID ******************
+2025-08-18 19:05:16,892 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 19:05:16,892 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 19:05:16,892 - root - INFO - *************** Search for Doctors name *********************
+2025-08-18 19:05:17,755 - root - INFO - *************** Referred By *********************
+2025-08-18 19:05:17,755 - root - INFO - *************** Referred By *********************
+2025-08-18 19:05:17,755 - root - INFO - *************** Referred By *********************
+2025-08-18 19:05:18,169 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 19:05:18,169 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 19:05:18,169 - root - INFO - *************** Clicking add to bill *********************
+2025-08-18 19:05:28,594 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 19:05:28,594 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 19:05:28,594 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-18 19:05:28,988 - root - INFO - *************** Process Discount *********************
+2025-08-18 19:05:28,988 - root - INFO - *************** Process Discount *********************
+2025-08-18 19:05:28,988 - root - INFO - *************** Process Discount *********************
+2025-08-18 19:05:30,270 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 19:05:30,270 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-18 19:05:30,270 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:10:12,736 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:10:12,736 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:10:15,231 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:10:15,231 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:10:15,811 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:10:15,811 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:10:16,230 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:10:16,230 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:10:17,072 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:10:17,072 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:10:17,738 - root - INFO - *********Select Facility*************
+2025-08-19 11:10:17,738 - root - INFO - *********Select Facility*************
+2025-08-19 11:10:20,676 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 11:10:20,676 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 11:10:20,880 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 11:10:20,880 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 11:10:23,898 - root - INFO - ********* Click the add patient option *************
+2025-08-19 11:10:23,898 - root - INFO - ********* Click the add patient option *************
+2025-08-19 11:10:23,995 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 11:10:23,995 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 11:10:30,290 - root - INFO - ********* Select a Title *************
+2025-08-19 11:10:30,290 - root - INFO - ********* Select a Title *************
+2025-08-19 11:10:30,779 - root - INFO - ********* Fill the firstname *************
+2025-08-19 11:10:30,779 - root - INFO - ********* Fill the firstname *************
+2025-08-19 11:10:30,948 - root - INFO - ********* Select a Gender *************
+2025-08-19 11:10:30,948 - root - INFO - ********* Select a Gender *************
+2025-08-19 11:10:31,080 - root - INFO - ********* Click the age *************
+2025-08-19 11:10:31,080 - root - INFO - ********* Click the age *************
+2025-08-19 11:10:31,308 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 11:10:31,308 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 11:10:31,480 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 11:10:31,480 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 11:10:31,635 - root - INFO - ********* Enter Address *************
+2025-08-19 11:10:31,635 - root - INFO - ********* Enter Address *************
+2025-08-19 11:10:31,821 - root - INFO - ********* Enter Locality *************
+2025-08-19 11:10:31,821 - root - INFO - ********* Enter Locality *************
+2025-08-19 11:10:31,959 - root - INFO - ********* Enter source option *************
+2025-08-19 11:10:31,959 - root - INFO - ********* Enter source option *************
+2025-08-19 11:10:32,309 - root - INFO - ********* Click register button *************
+2025-08-19 11:10:32,309 - root - INFO - ********* Click register button *************
+2025-08-19 11:10:33,043 - root - INFO - ********* Patient Details *************
+2025-08-19 11:10:33,043 - root - INFO - ********* Patient Details *************
+2025-08-19 11:10:33,091 - root - INFO - ********* Save Patient Details *************
+2025-08-19 11:10:33,091 - root - INFO - ********* Save Patient Details *************
+2025-08-19 11:10:34,429 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:10:34,429 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:10:34,429 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:10:44,589 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:10:44,589 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:10:44,589 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:14:55,464 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:14:55,464 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:14:57,438 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:14:57,438 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:14:58,126 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:14:58,126 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:14:58,635 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:14:58,635 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:14:59,151 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:14:59,151 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:14:59,550 - root - INFO - *********Select Facility*************
+2025-08-19 11:14:59,550 - root - INFO - *********Select Facility*************
+2025-08-19 11:15:01,818 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 11:15:01,818 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 11:15:02,050 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 11:15:02,050 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 11:15:03,842 - root - INFO - ********* Click the add patient option *************
+2025-08-19 11:15:03,842 - root - INFO - ********* Click the add patient option *************
+2025-08-19 11:15:04,405 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 11:15:04,405 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 11:15:09,750 - root - INFO - ********* Select a Title *************
+2025-08-19 11:15:09,750 - root - INFO - ********* Select a Title *************
+2025-08-19 11:15:10,848 - root - INFO - ********* Fill the firstname *************
+2025-08-19 11:15:10,848 - root - INFO - ********* Fill the firstname *************
+2025-08-19 11:15:11,217 - root - INFO - ********* Select a Gender *************
+2025-08-19 11:15:11,217 - root - INFO - ********* Select a Gender *************
+2025-08-19 11:15:11,423 - root - INFO - ********* Click the age *************
+2025-08-19 11:15:11,423 - root - INFO - ********* Click the age *************
+2025-08-19 11:15:11,655 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 11:15:11,655 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 11:15:11,811 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 11:15:11,811 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 11:15:11,956 - root - INFO - ********* Enter Address *************
+2025-08-19 11:15:11,956 - root - INFO - ********* Enter Address *************
+2025-08-19 11:15:12,116 - root - INFO - ********* Enter Locality *************
+2025-08-19 11:15:12,116 - root - INFO - ********* Enter Locality *************
+2025-08-19 11:15:12,251 - root - INFO - ********* Enter source option *************
+2025-08-19 11:15:12,251 - root - INFO - ********* Enter source option *************
+2025-08-19 11:15:12,563 - root - INFO - ********* Click register button *************
+2025-08-19 11:15:12,563 - root - INFO - ********* Click register button *************
+2025-08-19 11:15:13,300 - root - INFO - ********* Patient Details *************
+2025-08-19 11:15:13,300 - root - INFO - ********* Patient Details *************
+2025-08-19 11:15:13,361 - root - INFO - ********* Save Patient Details *************
+2025-08-19 11:15:13,361 - root - INFO - ********* Save Patient Details *************
+2025-08-19 11:15:14,120 - root - INFO - ********* Successful message *************
+2025-08-19 11:15:14,120 - root - INFO - ********* Successful message *************
+2025-08-19 11:15:14,172 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 11:15:14,172 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 11:15:24,255 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:15:24,255 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:15:24,255 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:15:25,279 - root - INFO - *************** Referred By *********************
+2025-08-19 11:15:25,279 - root - INFO - *************** Referred By *********************
+2025-08-19 11:15:25,279 - root - INFO - *************** Referred By *********************
+2025-08-19 11:15:25,662 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:15:25,662 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:15:25,662 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:15:36,082 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:15:36,082 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:15:36,082 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:15:36,317 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:15:36,317 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:15:36,317 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:15:36,742 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:15:36,742 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:15:36,742 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:15:37,062 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:15:37,062 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:15:37,062 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:15:42,851 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:15:42,851 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:15:42,851 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:15:43,322 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:15:43,322 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:15:43,322 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:16:14,954 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:16:14,954 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:16:14,954 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:16:15,828 - root - INFO - *************** Referred By *********************
+2025-08-19 11:16:15,828 - root - INFO - *************** Referred By *********************
+2025-08-19 11:16:15,828 - root - INFO - *************** Referred By *********************
+2025-08-19 11:16:16,195 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:16:16,195 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:16:16,195 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:16:26,983 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:16:26,983 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:16:26,983 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:16:27,301 - root - INFO - *************** Process Discount *********************
+2025-08-19 11:16:27,301 - root - INFO - *************** Process Discount *********************
+2025-08-19 11:16:27,301 - root - INFO - *************** Process Discount *********************
+2025-08-19 11:16:28,376 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:16:28,376 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:16:28,376 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:24:34,667 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:24:34,667 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:24:36,185 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:24:36,185 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:24:36,900 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:24:36,900 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:24:37,323 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:24:37,323 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:24:37,794 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:24:37,794 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:24:38,274 - root - INFO - *********Select Facility*************
+2025-08-19 11:24:38,274 - root - INFO - *********Select Facility*************
+2025-08-19 11:24:40,327 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 11:24:40,327 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 11:24:40,495 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 11:24:40,495 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 11:24:42,430 - root - INFO - ********* Click the add patient option *************
+2025-08-19 11:24:42,430 - root - INFO - ********* Click the add patient option *************
+2025-08-19 11:24:42,835 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 11:24:42,835 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 11:24:48,093 - root - INFO - ********* Select a Title *************
+2025-08-19 11:24:48,093 - root - INFO - ********* Select a Title *************
+2025-08-19 11:24:48,554 - root - INFO - ********* Fill the firstname *************
+2025-08-19 11:24:48,554 - root - INFO - ********* Fill the firstname *************
+2025-08-19 11:24:48,753 - root - INFO - ********* Select a Gender *************
+2025-08-19 11:24:48,753 - root - INFO - ********* Select a Gender *************
+2025-08-19 11:24:48,861 - root - INFO - ********* Click the age *************
+2025-08-19 11:24:48,861 - root - INFO - ********* Click the age *************
+2025-08-19 11:24:49,097 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 11:24:49,097 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 11:24:49,258 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 11:24:49,258 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 11:24:49,601 - root - INFO - ********* Enter Address *************
+2025-08-19 11:24:49,601 - root - INFO - ********* Enter Address *************
+2025-08-19 11:24:49,922 - root - INFO - ********* Enter Locality *************
+2025-08-19 11:24:49,922 - root - INFO - ********* Enter Locality *************
+2025-08-19 11:24:50,129 - root - INFO - ********* Enter source option *************
+2025-08-19 11:24:50,129 - root - INFO - ********* Enter source option *************
+2025-08-19 11:24:50,403 - root - INFO - ********* Click register button *************
+2025-08-19 11:24:50,403 - root - INFO - ********* Click register button *************
+2025-08-19 11:24:50,512 - root - INFO - ********* Patient Details *************
+2025-08-19 11:24:50,512 - root - INFO - ********* Patient Details *************
+2025-08-19 11:24:50,548 - root - INFO - ********* Save Patient Details *************
+2025-08-19 11:24:50,548 - root - INFO - ********* Save Patient Details *************
+2025-08-19 11:24:52,362 - root - INFO - ********* Successful message *************
+2025-08-19 11:24:52,362 - root - INFO - ********* Successful message *************
+2025-08-19 11:24:52,418 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 11:24:52,418 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 11:25:02,001 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:25:02,001 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:25:02,001 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:25:03,040 - root - INFO - *************** Referred By *********************
+2025-08-19 11:25:03,040 - root - INFO - *************** Referred By *********************
+2025-08-19 11:25:03,040 - root - INFO - *************** Referred By *********************
+2025-08-19 11:25:03,424 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:25:03,424 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:25:03,424 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:25:13,838 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:25:13,838 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:25:13,838 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:25:14,077 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:25:14,077 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:25:14,077 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:25:14,459 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:25:14,459 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:25:14,459 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:25:14,748 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:25:14,748 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:25:14,748 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:25:21,083 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:25:21,083 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:25:21,083 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:25:21,543 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:25:21,543 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:25:21,543 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:25:54,663 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:25:54,663 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:25:54,663 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:25:55,516 - root - INFO - *************** Referred By *********************
+2025-08-19 11:25:55,516 - root - INFO - *************** Referred By *********************
+2025-08-19 11:25:55,516 - root - INFO - *************** Referred By *********************
+2025-08-19 11:25:55,905 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:25:55,905 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:25:55,905 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:26:06,306 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:26:06,306 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:26:06,306 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:26:06,614 - root - INFO - *************** Process Discount *********************
+2025-08-19 11:26:06,614 - root - INFO - *************** Process Discount *********************
+2025-08-19 11:26:06,614 - root - INFO - *************** Process Discount *********************
+2025-08-19 11:26:37,668 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:26:37,668 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:26:37,668 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:28:18,880 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:28:18,880 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:28:20,672 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:28:20,672 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:28:21,198 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:28:21,198 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:28:21,618 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:28:21,618 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:28:22,111 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:28:22,111 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:28:22,555 - root - INFO - *********Select Facility*************
+2025-08-19 11:28:22,555 - root - INFO - *********Select Facility*************
+2025-08-19 11:28:29,680 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:28:29,680 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:28:29,680 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:28:33,779 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07330E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:33,779 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07330E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:33,779 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07330E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:37,815 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07330A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:37,815 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07330A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:37,815 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07330A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:41,863 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07243950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:41,863 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07243950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:41,863 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B07243950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3be3a7e7cc371f05e451c7f1540c2e47/element
+2025-08-19 11:28:46,134 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:28:46,134 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:28:46,134 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:29:01,186 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:29:01,186 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 11:29:02,851 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:29:02,851 - root - INFO - *********Logging and saving username status*************
+2025-08-19 11:29:03,520 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:29:03,520 - root - INFO - *********Logging and saving password status*************
+2025-08-19 11:29:04,025 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:29:04,025 - root - INFO - *********Clicking submit button*************
+2025-08-19 11:29:04,577 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:29:04,577 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 11:29:05,008 - root - INFO - *********Select Facility*************
+2025-08-19 11:29:05,008 - root - INFO - *********Select Facility*************
+2025-08-19 11:29:06,758 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 11:29:06,758 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 11:29:06,933 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 11:29:06,933 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 11:29:08,717 - root - INFO - ********* Click the add patient option *************
+2025-08-19 11:29:08,717 - root - INFO - ********* Click the add patient option *************
+2025-08-19 11:29:09,315 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 11:29:09,315 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 11:29:14,476 - root - INFO - ********* Select a Title *************
+2025-08-19 11:29:14,476 - root - INFO - ********* Select a Title *************
+2025-08-19 11:29:14,834 - root - INFO - ********* Fill the firstname *************
+2025-08-19 11:29:14,834 - root - INFO - ********* Fill the firstname *************
+2025-08-19 11:29:15,018 - root - INFO - ********* Select a Gender *************
+2025-08-19 11:29:15,018 - root - INFO - ********* Select a Gender *************
+2025-08-19 11:29:15,139 - root - INFO - ********* Click the age *************
+2025-08-19 11:29:15,139 - root - INFO - ********* Click the age *************
+2025-08-19 11:29:15,443 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 11:29:15,443 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 11:29:15,639 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 11:29:15,639 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 11:29:15,848 - root - INFO - ********* Enter Address *************
+2025-08-19 11:29:15,848 - root - INFO - ********* Enter Address *************
+2025-08-19 11:29:16,196 - root - INFO - ********* Enter Locality *************
+2025-08-19 11:29:16,196 - root - INFO - ********* Enter Locality *************
+2025-08-19 11:29:16,945 - root - INFO - ********* Enter source option *************
+2025-08-19 11:29:16,945 - root - INFO - ********* Enter source option *************
+2025-08-19 11:29:17,530 - root - INFO - ********* Click register button *************
+2025-08-19 11:29:17,530 - root - INFO - ********* Click register button *************
+2025-08-19 11:29:18,317 - root - INFO - ********* Patient Details *************
+2025-08-19 11:29:18,317 - root - INFO - ********* Patient Details *************
+2025-08-19 11:29:18,383 - root - INFO - ********* Save Patient Details *************
+2025-08-19 11:29:18,383 - root - INFO - ********* Save Patient Details *************
+2025-08-19 11:29:19,802 - root - INFO - ********* Successful message *************
+2025-08-19 11:29:19,802 - root - INFO - ********* Successful message *************
+2025-08-19 11:29:19,870 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 11:29:19,870 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 11:29:28,740 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:29:28,740 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:29:28,740 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:29:29,656 - root - INFO - *************** Referred By *********************
+2025-08-19 11:29:29,656 - root - INFO - *************** Referred By *********************
+2025-08-19 11:29:29,656 - root - INFO - *************** Referred By *********************
+2025-08-19 11:29:30,067 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:29:30,067 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:29:30,067 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:29:40,601 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:29:40,601 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:29:40,601 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 11:29:40,860 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:29:40,860 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:29:40,860 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 11:29:41,266 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:29:41,266 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:29:41,266 - root - INFO - *************** Process Payment  *********************
+2025-08-19 11:29:41,585 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:29:41,585 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:29:41,585 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 11:29:47,317 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:29:47,317 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:29:47,317 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 11:29:47,771 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:29:47,771 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:29:47,771 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 11:30:19,234 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:30:19,234 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:30:19,234 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 11:30:20,172 - root - INFO - *************** Referred By *********************
+2025-08-19 11:30:20,172 - root - INFO - *************** Referred By *********************
+2025-08-19 11:30:20,172 - root - INFO - *************** Referred By *********************
+2025-08-19 11:30:20,499 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:30:20,499 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:30:20,499 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 11:30:30,745 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:30:30,745 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:30:30,745 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 11:30:31,097 - root - INFO - *************** Process Discount *********************
+2025-08-19 11:30:31,097 - root - INFO - *************** Process Discount *********************
+2025-08-19 11:30:31,097 - root - INFO - *************** Process Discount *********************
+2025-08-19 12:15:00,161 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 12:15:00,161 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 12:15:02,186 - root - INFO - *********Logging and saving username status*************
+2025-08-19 12:15:02,186 - root - INFO - *********Logging and saving username status*************
+2025-08-19 12:15:03,065 - root - INFO - *********Logging and saving password status*************
+2025-08-19 12:15:03,065 - root - INFO - *********Logging and saving password status*************
+2025-08-19 12:15:04,007 - root - INFO - *********Clicking submit button*************
+2025-08-19 12:15:04,007 - root - INFO - *********Clicking submit button*************
+2025-08-19 12:15:05,163 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 12:15:05,163 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 12:15:06,149 - root - INFO - *********Select Facility*************
+2025-08-19 12:15:06,149 - root - INFO - *********Select Facility*************
+2025-08-19 12:15:34,790 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 12:15:34,790 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 12:15:36,137 - root - INFO - *********Logging and saving username status*************
+2025-08-19 12:15:36,137 - root - INFO - *********Logging and saving username status*************
+2025-08-19 12:15:36,728 - root - INFO - *********Logging and saving password status*************
+2025-08-19 12:15:36,728 - root - INFO - *********Logging and saving password status*************
+2025-08-19 12:15:37,251 - root - INFO - *********Clicking submit button*************
+2025-08-19 12:15:37,251 - root - INFO - *********Clicking submit button*************
+2025-08-19 12:15:37,744 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 12:15:37,744 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 12:15:38,200 - root - INFO - *********Select Facility*************
+2025-08-19 12:15:38,200 - root - INFO - *********Select Facility*************
+2025-08-19 12:15:39,786 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 12:15:39,786 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 12:15:40,082 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 12:15:40,082 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 12:15:41,853 - root - INFO - ********* Click the add patient option *************
+2025-08-19 12:15:41,853 - root - INFO - ********* Click the add patient option *************
+2025-08-19 12:15:42,322 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 12:15:42,322 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 12:15:48,054 - root - INFO - ********* Select a Title *************
+2025-08-19 12:15:48,054 - root - INFO - ********* Select a Title *************
+2025-08-19 12:15:48,479 - root - INFO - ********* Fill the firstname *************
+2025-08-19 12:15:48,479 - root - INFO - ********* Fill the firstname *************
+2025-08-19 12:15:48,667 - root - INFO - ********* Select a Gender *************
+2025-08-19 12:15:48,667 - root - INFO - ********* Select a Gender *************
+2025-08-19 12:15:48,799 - root - INFO - ********* Click the age *************
+2025-08-19 12:15:48,799 - root - INFO - ********* Click the age *************
+2025-08-19 12:15:49,017 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 12:15:49,017 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 12:15:49,179 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 12:15:49,179 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 12:15:49,335 - root - INFO - ********* Enter Address *************
+2025-08-19 12:15:49,335 - root - INFO - ********* Enter Address *************
+2025-08-19 12:15:49,519 - root - INFO - ********* Enter Locality *************
+2025-08-19 12:15:49,519 - root - INFO - ********* Enter Locality *************
+2025-08-19 12:15:49,904 - root - INFO - ********* Enter source option *************
+2025-08-19 12:15:49,904 - root - INFO - ********* Enter source option *************
+2025-08-19 12:15:50,435 - root - INFO - ********* Click register button *************
+2025-08-19 12:15:50,435 - root - INFO - ********* Click register button *************
+2025-08-19 12:15:51,102 - root - INFO - ********* Patient Details *************
+2025-08-19 12:15:51,102 - root - INFO - ********* Patient Details *************
+2025-08-19 12:15:51,152 - root - INFO - ********* Save Patient Details *************
+2025-08-19 12:15:51,152 - root - INFO - ********* Save Patient Details *************
+2025-08-19 12:15:52,184 - root - INFO - ********* Successful message *************
+2025-08-19 12:15:52,184 - root - INFO - ********* Successful message *************
+2025-08-19 12:15:52,245 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 12:15:52,245 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 12:16:01,327 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:16:01,327 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:16:01,327 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:16:02,164 - root - INFO - *************** Referred By *********************
+2025-08-19 12:16:02,164 - root - INFO - *************** Referred By *********************
+2025-08-19 12:16:02,164 - root - INFO - *************** Referred By *********************
+2025-08-19 12:16:02,582 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:16:02,582 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:16:02,582 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:16:13,029 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:16:13,029 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:16:13,029 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:16:13,288 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:16:13,288 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:16:13,288 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:16:13,788 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:16:13,788 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:16:13,788 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:16:14,139 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:16:14,139 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:16:14,139 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:16:19,915 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 12:16:19,915 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 12:16:19,915 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 12:16:20,606 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 12:16:20,606 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 12:16:20,606 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 12:16:52,290 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:16:52,290 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:16:52,290 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:16:53,158 - root - INFO - *************** Referred By *********************
+2025-08-19 12:16:53,158 - root - INFO - *************** Referred By *********************
+2025-08-19 12:16:53,158 - root - INFO - *************** Referred By *********************
+2025-08-19 12:16:53,643 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:16:53,643 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:16:53,643 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:17:03,983 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 12:17:03,983 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 12:17:03,983 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 12:17:04,446 - root - INFO - *************** Process Discount *********************
+2025-08-19 12:17:04,446 - root - INFO - *************** Process Discount *********************
+2025-08-19 12:17:04,446 - root - INFO - *************** Process Discount *********************
+2025-08-19 12:17:35,834 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:17:35,834 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:17:35,834 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:17:36,136 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:17:36,136 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:17:36,136 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:17:36,666 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:17:36,666 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:17:36,666 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:17:37,002 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:17:37,002 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:17:37,002 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:22:22,868 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 12:22:22,868 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 12:22:24,821 - root - INFO - *********Logging and saving username status*************
+2025-08-19 12:22:24,821 - root - INFO - *********Logging and saving username status*************
+2025-08-19 12:22:25,362 - root - INFO - *********Logging and saving password status*************
+2025-08-19 12:22:25,362 - root - INFO - *********Logging and saving password status*************
+2025-08-19 12:22:25,826 - root - INFO - *********Clicking submit button*************
+2025-08-19 12:22:25,826 - root - INFO - *********Clicking submit button*************
+2025-08-19 12:22:26,301 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 12:22:26,301 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 12:22:26,757 - root - INFO - *********Select Facility*************
+2025-08-19 12:22:26,757 - root - INFO - *********Select Facility*************
+2025-08-19 12:22:31,632 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 12:22:31,632 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 12:22:31,841 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 12:22:31,841 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 12:22:34,177 - root - INFO - ********* Click the add patient option *************
+2025-08-19 12:22:34,177 - root - INFO - ********* Click the add patient option *************
+2025-08-19 12:22:34,535 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 12:22:34,535 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 12:22:40,975 - root - INFO - ********* Select a Title *************
+2025-08-19 12:22:40,975 - root - INFO - ********* Select a Title *************
+2025-08-19 12:22:42,103 - root - INFO - ********* Fill the firstname *************
+2025-08-19 12:22:42,103 - root - INFO - ********* Fill the firstname *************
+2025-08-19 12:22:42,318 - root - INFO - ********* Select a Gender *************
+2025-08-19 12:22:42,318 - root - INFO - ********* Select a Gender *************
+2025-08-19 12:22:42,445 - root - INFO - ********* Click the age *************
+2025-08-19 12:22:42,445 - root - INFO - ********* Click the age *************
+2025-08-19 12:22:42,706 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 12:22:42,706 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 12:22:42,859 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 12:22:42,859 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 12:22:43,041 - root - INFO - ********* Enter Address *************
+2025-08-19 12:22:43,041 - root - INFO - ********* Enter Address *************
+2025-08-19 12:22:43,244 - root - INFO - ********* Enter Locality *************
+2025-08-19 12:22:43,244 - root - INFO - ********* Enter Locality *************
+2025-08-19 12:22:43,433 - root - INFO - ********* Enter source option *************
+2025-08-19 12:22:43,433 - root - INFO - ********* Enter source option *************
+2025-08-19 12:22:43,764 - root - INFO - ********* Click register button *************
+2025-08-19 12:22:43,764 - root - INFO - ********* Click register button *************
+2025-08-19 12:22:44,492 - root - INFO - ********* Patient Details *************
+2025-08-19 12:22:44,492 - root - INFO - ********* Patient Details *************
+2025-08-19 12:22:44,564 - root - INFO - ********* Save Patient Details *************
+2025-08-19 12:22:44,564 - root - INFO - ********* Save Patient Details *************
+2025-08-19 12:22:45,555 - root - INFO - ********* Successful message *************
+2025-08-19 12:22:45,555 - root - INFO - ********* Successful message *************
+2025-08-19 12:22:45,593 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 12:22:45,593 - root - INFO - ********* Registration Successful Pop up *************
+2025-08-19 12:22:53,846 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:22:53,846 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:22:53,846 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:22:54,747 - root - INFO - *************** Referred By *********************
+2025-08-19 12:22:54,747 - root - INFO - *************** Referred By *********************
+2025-08-19 12:22:54,747 - root - INFO - *************** Referred By *********************
+2025-08-19 12:22:55,147 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:22:55,147 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:22:55,147 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:23:05,949 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:23:05,949 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:23:05,949 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:23:06,221 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:23:06,221 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:23:06,221 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:23:06,844 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:23:06,844 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:23:06,844 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:23:07,216 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:23:07,216 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:23:07,216 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:23:12,957 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 12:23:12,957 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 12:23:12,957 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 12:23:13,415 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 12:23:13,415 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 12:23:13,415 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 12:23:44,909 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:23:44,909 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:23:44,909 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 12:23:45,962 - root - INFO - *************** Referred By *********************
+2025-08-19 12:23:45,962 - root - INFO - *************** Referred By *********************
+2025-08-19 12:23:45,962 - root - INFO - *************** Referred By *********************
+2025-08-19 12:23:46,347 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:23:46,347 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:23:46,347 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 12:23:57,098 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 12:23:57,098 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 12:23:57,098 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 12:23:57,510 - root - INFO - *************** Process Discount *********************
+2025-08-19 12:23:57,510 - root - INFO - *************** Process Discount *********************
+2025-08-19 12:23:57,510 - root - INFO - *************** Process Discount *********************
+2025-08-19 12:24:28,827 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:24:28,827 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:24:28,827 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 12:24:29,111 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:24:29,111 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:24:29,111 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 12:24:29,532 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:24:29,532 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:24:29,532 - root - INFO - *************** Process Payment  *********************
+2025-08-19 12:24:29,844 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:24:29,844 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 12:24:29,844 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 15:55:34,969 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 15:55:34,969 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 15:55:35,343 - root - INFO - *********Logging and saving username status*************
+2025-08-19 15:55:35,343 - root - INFO - *********Logging and saving username status*************
+2025-08-19 15:55:41,458 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:55:41,458 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:55:45,530 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD57FED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:55:45,530 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD57FED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:55:49,586 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD57FD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:55:49,586 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD57FD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:55:57,725 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD615220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:55:57,725 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD615220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:56:01,751 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD56AC30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:56:01,751 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD56AC30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:56:05,842 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD6C0380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:56:05,842 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD6C0380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f/screenshot
+2025-08-19 15:56:14,864 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD6C2140>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f
+2025-08-19 15:56:14,864 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD6C2140>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f
+2025-08-19 15:56:18,918 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD6C19D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f
+2025-08-19 15:56:18,918 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD6C19D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f
+2025-08-19 15:56:22,976 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD6C2470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f
+2025-08-19 15:56:22,976 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2AD6C2470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/89de43ac495a91bdbf18e61d3cd16b5f
+2025-08-19 15:58:43,987 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 15:58:43,987 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 15:58:44,942 - root - INFO - *********Logging and saving username status*************
+2025-08-19 15:58:44,942 - root - INFO - *********Logging and saving username status*************
+2025-08-19 15:58:45,323 - root - INFO - *********Logging and saving password status*************
+2025-08-19 15:58:45,323 - root - INFO - *********Logging and saving password status*************
+2025-08-19 15:58:45,641 - root - INFO - *********Clicking submit button*************
+2025-08-19 15:58:45,641 - root - INFO - *********Clicking submit button*************
+2025-08-19 15:58:46,059 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 15:58:46,059 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 16:07:23,154 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 16:07:23,154 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 16:07:24,054 - root - INFO - *********Logging and saving username status*************
+2025-08-19 16:07:24,054 - root - INFO - *********Logging and saving username status*************
+2025-08-19 16:07:24,436 - root - INFO - *********Logging and saving password status*************
+2025-08-19 16:07:24,436 - root - INFO - *********Logging and saving password status*************
+2025-08-19 16:07:24,818 - root - INFO - *********Clicking submit button*************
+2025-08-19 16:07:24,818 - root - INFO - *********Clicking submit button*************
+2025-08-19 16:07:25,178 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 16:07:25,178 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 16:07:25,513 - root - INFO - *********Select Facility*************
+2025-08-19 16:07:25,513 - root - INFO - *********Select Facility*************
+2025-08-19 16:07:28,293 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 16:07:28,293 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 16:07:28,482 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 16:07:28,482 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 16:07:30,538 - root - INFO - ********* Click the add patient option *************
+2025-08-19 16:07:30,538 - root - INFO - ********* Click the add patient option *************
+2025-08-19 16:07:31,071 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 16:07:31,071 - root - INFO - ********* Click any option under the add paitent option *************
+2025-08-19 16:07:36,506 - root - INFO - ********* Select a Title *************
+2025-08-19 16:07:36,506 - root - INFO - ********* Select a Title *************
+2025-08-19 16:07:36,918 - root - INFO - ********* Fill the firstname *************
+2025-08-19 16:07:36,918 - root - INFO - ********* Fill the firstname *************
+2025-08-19 16:07:37,041 - root - INFO - ********* Select a Gender *************
+2025-08-19 16:07:37,041 - root - INFO - ********* Select a Gender *************
+2025-08-19 16:07:37,148 - root - INFO - ********* Click the age *************
+2025-08-19 16:07:37,148 - root - INFO - ********* Click the age *************
+2025-08-19 16:07:37,321 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 16:07:37,321 - root - INFO - ********* Select status of Marriage *************
+2025-08-19 16:07:37,430 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 16:07:37,430 - root - INFO - ********* Enter the mobile number *************
+2025-08-19 16:07:37,544 - root - INFO - ********* Enter Address *************
+2025-08-19 16:07:37,544 - root - INFO - ********* Enter Address *************
+2025-08-19 16:07:37,701 - root - INFO - ********* Enter Locality *************
+2025-08-19 16:07:37,701 - root - INFO - ********* Enter Locality *************
+2025-08-19 16:07:37,835 - root - INFO - ********* Enter source option *************
+2025-08-19 16:07:37,835 - root - INFO - ********* Enter source option *************
+2025-08-19 16:07:38,216 - root - INFO - ********* Click register button *************
+2025-08-19 16:07:38,216 - root - INFO - ********* Click register button *************
+2025-08-19 16:07:38,347 - root - INFO - ********* Patient Details *************
+2025-08-19 16:07:38,347 - root - INFO - ********* Patient Details *************
+2025-08-19 16:07:38,394 - root - INFO - ********* Save Patient Details *************
+2025-08-19 16:07:38,394 - root - INFO - ********* Save Patient Details *************
+2025-08-19 16:07:39,731 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 16:07:39,731 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 16:07:39,731 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 16:07:50,994 - root - INFO - *************** Referred By *********************
+2025-08-19 16:07:50,994 - root - INFO - *************** Referred By *********************
+2025-08-19 16:07:50,994 - root - INFO - *************** Referred By *********************
+2025-08-19 16:07:51,289 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 16:07:51,289 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 16:07:51,289 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 16:08:01,972 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 16:08:01,972 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 16:08:01,972 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 16:08:02,141 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 16:08:02,141 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 16:08:02,141 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 16:08:02,478 - root - INFO - *************** Process Payment  *********************
+2025-08-19 16:08:02,478 - root - INFO - *************** Process Payment  *********************
+2025-08-19 16:08:02,478 - root - INFO - *************** Process Payment  *********************
+2025-08-19 16:08:02,751 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 16:08:02,751 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 16:08:02,751 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 16:08:03,969 - root - INFO - *************** Click the home button  *********************
+2025-08-19 16:08:03,969 - root - INFO - *************** Click the home button  *********************
+2025-08-19 16:08:03,969 - root - INFO - *************** Click the home button  *********************
+2025-08-19 16:08:05,165 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 16:08:05,165 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 16:08:05,165 - root - INFO - ************ Click the refresh button ******************
+2025-08-19 16:24:28,111 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 16:24:28,111 - root - INFO - *********URL is invoked in the Browser*************
+2025-08-19 16:24:28,512 - root - INFO - *********Logging and saving username status*************
+2025-08-19 16:24:28,512 - root - INFO - *********Logging and saving username status*************
+2025-08-19 16:24:29,289 - root - INFO - *********Logging and saving password status*************
+2025-08-19 16:24:29,289 - root - INFO - *********Logging and saving password status*************
+2025-08-19 16:24:29,640 - root - INFO - *********Clicking submit button*************
+2025-08-19 16:24:29,640 - root - INFO - *********Clicking submit button*************
+2025-08-19 16:24:30,023 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 16:24:30,023 - root - INFO - *************Click Yes Button in the POP UP*******************
+2025-08-19 16:24:30,374 - root - INFO - *********Select Facility*************
+2025-08-19 16:24:30,374 - root - INFO - *********Select Facility*************
+2025-08-19 16:24:32,581 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 16:24:32,581 - root - INFO - *********Click the Front office option in His HomePage*************
+2025-08-19 16:24:32,975 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 16:24:32,975 - root - INFO - *********Click Yes Button in the Front Office Pop up*************
+2025-08-19 16:24:34,574 - root - INFO - ************ Click the Billing option under Home ******************
+2025-08-19 16:24:34,574 - root - INFO - ************ Click the Billing option under Home ******************
+2025-08-19 16:24:39,671 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 16:24:39,671 - root - INFO - ************ Enter the UHID ******************
+2025-08-19 16:25:12,315 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 16:25:12,315 - root - INFO - *************** Search for Doctors name *********************
+2025-08-19 16:25:13,023 - root - INFO - *************** Referred By *********************
+2025-08-19 16:25:13,023 - root - INFO - *************** Referred By *********************
+2025-08-19 16:25:13,309 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 16:25:13,309 - root - INFO - *************** Clicking add to bill *********************
+2025-08-19 16:25:24,024 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 16:25:24,024 - root - INFO - *************** Click  yes button in discount pop up *********************
+2025-08-19 16:25:24,285 - root - INFO - *************** Process Discount *********************
+2025-08-19 16:25:24,285 - root - INFO - *************** Process Discount *********************
+2025-08-19 16:25:25,202 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 16:25:25,202 - root - INFO - *************** Clicking the billing option  *********************
+2025-08-19 16:25:25,408 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 16:25:25,408 - root - INFO - *************** Generate Bill Pop up  *********************
+2025-08-19 16:25:25,706 - root - INFO - *************** Process Payment  *********************
+2025-08-19 16:25:25,706 - root - INFO - *************** Process Payment  *********************
+2025-08-19 16:25:25,908 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 16:25:25,908 - root - INFO - *************** Print the Bill  *********************
+2025-08-19 16:25:26,661 - root - INFO - *************** Click the home button  *********************
+2025-08-19 16:25:26,661 - root - INFO - *************** Click the home button  *********************

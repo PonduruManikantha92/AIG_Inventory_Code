@@ -161,7 +161,7 @@ class TestHISFrontOffice(TestHIS_Login_Page):
 
         time.sleep(5)
 
-    def test_billing_with_discount(self, excel_reader, test_his_login_page):
+    def test_generate_bill_by_cash (self, excel_reader, test_his_login_page):
         logger = LogGen.loggen()
         Doctor_name = excel_reader['data']['Billing_Details'].iloc[0]
         refer = excel_reader['data']['Billing_Details'].iloc[1]
@@ -183,51 +183,140 @@ class TestHISFrontOffice(TestHIS_Login_Page):
         self.logger.info("*************** Referred By *********************")
         front_office_billing.refered_by(refer)
         driver.save_screenshot(".\\Screenshots\\Referred_By.png")
-        time.sleep(2)
+
         ######### Clicking add to bill#####################
         self.logger.info("*************** Clicking add to bill *********************")
         front_office_billing.click_add_to_bill()
         driver.save_screenshot(".\\Screenshots\\click_add_to_bill.png")
-        time.sleep(2)
-        ######### Close the deposit pop up#####################
-        self.logger.info("*************** Close the deposit pop up *********************")
-        front_office_billing.close_the_deposit_pop_up()
-        driver.save_screenshot(".\\Screenshots\\close_the_deposit_pop_up.png")
-        time.sleep(2)
-        #########Click  yes button in discount pop up#####################
-        self.logger.info("*************** Click  yes button in discount pop up *********************")
-        front_office_billing.click_yes_button_in_discount_pop()
-        driver.save_screenshot(".\\Screenshots\\click_yes_button_in_discount_pop_up.png")
-        time.sleep(2)
-        ######### Process Discount #####################
-        self.logger.info("*************** Process Discount *********************")
-        front_office_billing.process_discount(self.Discount_on_option, self.Discount_head, self.Discount_reason,
-                                                   self.Discount_percentage, self.Authorized_By)
-        driver.save_screenshot(".\\Screenshots\\click_yes_button_in_discount_pop_up.png")
-        time.sleep(2)
+
+
         ######### Clicking the billing option #####################
         self.logger.info("*************** Clicking the billing option  *********************")
         front_office_billing.click_the_billing_option()
-        driver.save_screenshot(".\\Screenshots\\Clicking_the_billing_option ")
+        driver.save_screenshot(".\\Screenshots\\Clicking_the_billing_option.png")
 
-        time.sleep(2)
+
         ######### Generate Bill Pop up #####################
         self.logger.info("*************** Generate Bill Pop up  *********************")
         front_office_billing.generate_bill_pop_up()
-        driver.save_screenshot(".\\Screenshots\\Generate_Bill_Pop_up")
+        driver.save_screenshot(".\\Screenshots\\Generate_Bill_Pop_up.png")
 
-        time.sleep(2)
+
         #########Process Payment #####################
         self.logger.info("*************** Process Payment  *********************")
         front_office_billing.process_payment()
-        driver.save_screenshot(".\\Screenshots\\Generate_Bill_Pop_up")
+        driver.save_screenshot(".\\Screenshots\\Process Payment.png")
 
-        time.sleep(2)
+
         #########Print the Bill #####################
         self.logger.info("*************** Print the Bill  *********************")
         front_office_billing.print_the_bill()
+        driver.save_screenshot(".\\Screenshots\\print_the_bill.png")
+
+        #########Click the home button #####################
+        self.logger.info("*************** Click the home button  *********************")
+        front_office_billing.click_home_button()
+        driver.save_screenshot(".\\Screenshots\\click_home_button.png")
+
+
+    @pytest.mark.smoke
+    def test_generate_bill_by_cash_discount (self, excel_reader, test_his_login_page):
+
+        Doctor_name = excel_reader['data']['Billing_Details'].iloc[0]
+        refer = excel_reader['data']['Billing_Details'].iloc[1]
+
+        uhid_for_discount = excel_reader['data']['Discount_Details'].iloc[0]
+        Discount_on_option = excel_reader['data']['Discount_Details'].iloc[1]
+        Discount_head = excel_reader['data']['Discount_Details'].iloc[2]
+        Discount_reason = excel_reader['data']['Discount_Details'].iloc[3]
+        Discount_percentage = excel_reader['data']['Discount_Details'].iloc[4]
+        Authorized_By = excel_reader['data']['Discount_Details'].iloc[5]
+
+        driver = test_his_login_page
+        front_office_billing_with_discount = His_OP_Billing(driver)
+        his_home_object = His_OutPatient_Registration(driver)
+
+        self.logger.info("*********Select Facility*************")
+        his_home_object.select_facility()
+
+        ######### Click the Front office option in His HomePage #####################
+        self.logger.info("*********Click the Front office option in His HomePage*************")
+        his_home_object.Select_Front_Office_from_HIS_Homepage()
+        driver.save_screenshot(".\\Screenshots\\clicking_the_front_office_in_home_page.png")
+
+        ######### Click Yes Button in the Front Office Pop up #####################
+        self.logger.info("*********Click Yes Button in the Front Office Pop up*************")
+        his_home_object.Click_yes_button_in_front_office_pop_up()
+        driver.save_screenshot(".\\Screenshots\\Click_yes_button_in_the_front_Office_Pop.png")
+
+        ######### Click the Billing option under Home #####################
+        self.logger.info("************ Click the Billing option under Home ******************")
+        front_office_billing_with_discount.click_billing_option_under_home()
+        driver.save_screenshot(".\\Screenshots\\clicking_the_billing_option_under_home.png")
+
+        ######### Enter the UHID #####################
+        self.logger.info("************ Enter the UHID ******************")
+        front_office_billing_with_discount.enter_the_uhid(uhid = uhid_for_discount)
+        driver.save_screenshot(".\\Screenshots\\Enter_the_UHID.png")
+
+        ######### Search for Doctors Name #####################
+        self.logger.info("*************** Search for Doctors name *********************")
+        front_office_billing_with_discount.search_for_doctor_name(Doctor_name)
+        driver.save_screenshot(".\\Screenshots\\searching_for_doc_name.png")
+
+        ######### Referred By#####################
+        self.logger.info("*************** Referred By *********************")
+        front_office_billing_with_discount.refered_by(refer)
+        driver.save_screenshot(".\\Screenshots\\Referred_By.png")
+
+        ######### Clicking add to bill#####################
+        self.logger.info("*************** Clicking add to bill *********************")
+        front_office_billing_with_discount.click_add_to_bill()
+        driver.save_screenshot(".\\Screenshots\\click_add_to_bill.png")
+
+        # ######### Close the deposit pop up#####################
+        # self.logger.info("*************** Close the deposit pop up *********************")
+        # front_office_billing.close_the_deposit_pop_up()
+        # driver.save_screenshot(".\\Screenshots\\close_the_deposit_pop_up.png")
+        # time.sleep(2)
+        #########Click  yes button in discount pop up#####################
+        self.logger.info("*************** Click  yes button in discount pop up *********************")
+        front_office_billing_with_discount.click_yes_button_in_discount_pop()
+        driver.save_screenshot(".\\Screenshots\\click_yes_button_in_discount_pop_up.png")
+
+        ######### Process Discount #####################
+        self.logger.info("*************** Process Discount *********************")
+        front_office_billing_with_discount.process_discount(Discount_on_option, Discount_head, Discount_reason,
+                                                   Discount_percentage, Authorized_By)
+        driver.save_screenshot(".\\Screenshots\\click_yes_button_in_discount_pop_up.png")
+
+        ######### Clicking the billing option #####################
+        self.logger.info("*************** Clicking the billing option  *********************")
+        front_office_billing_with_discount.click_the_billing_option()
+        driver.save_screenshot(".\\Screenshots\\Clicking_the_billing_option ")
+
+
+        ######### Generate Bill Pop up #####################
+        self.logger.info("*************** Generate Bill Pop up  *********************")
+        front_office_billing_with_discount.generate_bill_pop_up()
+        driver.save_screenshot(".\\Screenshots\\Generate_Bill_Pop_up")
+
+
+        #########Process Payment #####################
+        self.logger.info("*************** Process Payment  *********************")
+        front_office_billing_with_discount.process_payment()
+        driver.save_screenshot(".\\Screenshots\\Generate_Bill_Pop_up")
+
+
+        #########Print the Bill #####################
+        self.logger.info("*************** Print the Bill  *********************")
+        front_office_billing_with_discount.print_the_bill()
         driver.save_screenshot(".\\Screenshots\\print_the_bill")
 
-        time.sleep(10)
+        #########Click the home button #####################
+        self.logger.info("*************** Click the home button  *********************")
+        front_office_billing_with_discount.click_home_button()
+        driver.save_screenshot(".\\Screenshots\\click_home_button.png")
+        time.sleep(5)
 
 

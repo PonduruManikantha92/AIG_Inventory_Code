@@ -1,3 +1,5 @@
+import time
+
 from pyodbc import drivers
 from selenium.common import StaleElementReferenceException, NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
@@ -49,8 +51,14 @@ class His_OP_Billing:
         self.xpath_for_save_button = "(//div[@class='popup-icon-top']//span//a[@title='Verify'])[1]"
         self.xpath_for_print_the_bill_pop_up = "//div[@id='modal_report']//div[@id='popup235']"
         self.xpath_for_no_button_in_print_the_bill_pop_up_footer = "//footer[@class='popupHeader']//a[@id='btnnorep']"
+        self.xpath_for_refresh_button = "//a[@id='Clear']"
+        self.xpath_for_3_bars = "//img[@id='showmenuIcon']"
+        self.xpath_for_home_button_after_clicking_3_bars = "//a[normalize-space()='HOME']"
+        self.xpath_for_home_button = "//img[@id='showmenuIcon1']"
 
-    def options_under_home_in_billing(self):
+
+
+    def click_billing_option_under_home(self):
         try:
             options = self.wait.until(expected_conditions.presence_of_all_elements_located((By.XPATH, self.xpath_for_options_in_home)))
 
@@ -69,7 +77,7 @@ class His_OP_Billing:
                     continue
         except Exception as e:
             print(f"Exception in options_under_home_in_billing: {e}")
-
+    #
     def enter_the_uhid(self, uhid):
 
         uhid_locator = (By.XPATH, self.xpath_for_uhid_field_in_billing_page)
@@ -205,3 +213,17 @@ class His_OP_Billing:
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_print_the_bill_pop_up)))
         no_button = self.driver.find_element(By.XPATH, self.xpath_for_no_button_in_print_the_bill_pop_up_footer)
         no_button.click()
+
+    def click_refresh_button(self):
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_refresh_button)))
+        refresh_button = self.driver.find_element(By.XPATH, self.xpath_for_refresh_button)
+        refresh_button.click()
+
+    def click_home_button(self):
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_3_bars)))
+        three_bars = self.driver.find_element(By.XPATH, self.xpath_for_3_bars)
+        three_bars.click()
+
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)))
+        home_button = self.driver.find_element(By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)
+        home_button.click()
