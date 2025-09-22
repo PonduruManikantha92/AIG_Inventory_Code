@@ -56,14 +56,15 @@ class HIS_Indents:
         self.xpath_for_indent_issue_option = "//span[normalize-space()='Indent Issue']"
         self.xpath_for_items_under_indent_issue = "//ul[@id='collapseMulti2']"
         self.xpath_for_indent_issue_option_one = "//a[@href='/HisTraining/Inventory/IndentIssue']"
-        self.xpath_for_new_button = "//span[normalize-space() ='New']"
-        self.xpath_for_indent_issue_pop_up = "(//section[@class='popupBody'])[2]"
-        self.xpath_for_first_element_in_indent_issue_pop_up = "(//tr[@class='context-menu-IsUnlock'])[1]"
-        self.xpath_for_save_button_in_indent_issue = "//a[@id='btnSave']/i[@class='fa fa-save']"
+        self.xpath_for_new_button = "//input[@id='rbl_New']"
+        self.xpath_for_indent_issue_pop_up = "//div[@id='IndentIssue_popup']//div[@class='popuptable250']"
+        self.xpath_for_first_element_in_indent_issue_pop_up = "//table[@id='tbl_IssueItem']//td[normalize-space(text())='1']"
+        self.xpath_for_save_button_in_indent_issue = "//i[@class='fa fa-save']"
         self.xpath_for_save_pop_in_indent_issue = "(//div[@id='popup280'])[1]"
         self.xpath_for_yes_button_in_indent_issue_save_pop_up = "//a[@id='btnYes']"
         self.xpath_for_print_report_pop_up = "(//div[@id='popup280'])[1]"
         self.xpath_for_yes_button_in_print_report_pop_up = "//a[@id='btnNo']"
+        self.xpath_for_manual_mode_radio_button = "//input[@id='rbl_ManualMode']"
 
         ################## Indent Item Receipt #####################
         self.xpath_for_indent_item_receipt = "//a[normalize-space()='Item Receipt']"
@@ -93,7 +94,7 @@ class HIS_Indents:
         inventory_dropdown_option = self.driver.find_element(By.XPATH, self.xpath_for_inventory_option_dropdown)
         inventory_ops = Select(inventory_dropdown_option)
         for i in inventory_ops.options:
-            if i.text.strip() == 'A-3-HDU 1':
+            if i.text.strip() == 'A-9-NS 4':
                 i.click()
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_yes_button_in_inventory_pop_up)))
         yes_Button = self.driver.find_element(By.XPATH, self.xpath_for_yes_button_in_inventory_pop_up)
@@ -122,7 +123,7 @@ class HIS_Indents:
             if dept_option.text.strip() == department_name:
                 dept_option.click()
 
-    def search_and_click_indent_items(self, search_text):
+    def search_and_click_indent_items(self, search_text, value):
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_indent_search)))
         options_under_tab_xpath = f"//td[contains(normalize-space(text()), '{search_text.strip()}')]"
 
@@ -140,22 +141,15 @@ class HIS_Indents:
                 print(f"{search_text} not found in {tab_name} tab. Trying next tab.")
                 continue
 
-    def select_items_from_table2(self, input_value):
-        selected_items_table = self.driver.find_elements(By.XPATH, self.xpath_for_selected_items)
-        xpath_for_value = "//td[@ctype='QTY']"
-        for option in selected_items_table:
-            try:
-                # Find the <input> inside the <td ctype="QTY">
-                input_elem = option.find_element(By.XPATH, ".//td[@ctype='QTY']//input")
+        # Locate the specific row for the given item
+        row_xpath = f"//tr[td[@ctype='ITEMNAME' and contains(text(),'{search_text.strip()}')]]"
+        row = self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, row_xpath)))
 
-                # Check if it's enabled and visible
-                if input_elem.is_displayed() and input_elem.is_enabled():
-                    input_elem.clear()
-                    input_elem.send_keys(input_value)
-                else:
-                    print("Input not interactable.")
-            except Exception as e:
-                print(f"Error interacting with QTY input: {e}")
+        # Inside that row, locate the QTY input
+        qty_field = row.find_element(By.XPATH, ".//td[@ctype='QTY']//input")
+        if qty_field.is_displayed():
+            qty_field.clear()
+            qty_field.send_keys(str(value))  # Ensure it's a string
 
     def save_indent_items(self):
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_save_button)))
@@ -165,8 +159,24 @@ class HIS_Indents:
         yes_button_save_pop_up = self.driver.find_element(By.XPATH, self.xpath_for_yes_in_save_pop_up)
         yes_button_save_pop_up.click()
 
+    def click_home_button(self):
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_3_bars)))
+        three_bars = self.driver.find_element(By.XPATH, self.xpath_for_3_bars)
+        three_bars.click()
+
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)))
+        home_button = self.driver.find_element(By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)
+        home_button.click()
+
 
     ################## Indent Approval #####################
+
+    def Indent_options_select_indent_approval(self, option_name):
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_search_field_in_inventory)))
+        search_field = self.driver.find_element(By.XPATH, self.xpath_for_search_field_in_inventory)
+        search_field.send_keys(option_name)
+        option_under_indent_items = self.driver.find_element(By.XPATH, self.xpath_for_indent_approval)
+        self.driver.execute_script("arguments[0].click();", option_under_indent_items)
 
     def click_show_menu_icon(self):
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_showmenu)))
@@ -174,83 +184,112 @@ class HIS_Indents:
         show_menu_icon.click()
 
     def indent_approval(self):
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_indent_items_tab)))
-        indent_items_tab = self.driver.find_element(By.XPATH, self.xpath_for_indent_items_tab)
-        indent_items_tab.click()
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_indent_approval)))
-        indent_approval = self.driver.find_element(By.XPATH, self.xpath_for_indent_approval)
-        self.driver.execute_script("arguments[0].click();", indent_approval)
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_new_indent)))
         new_indent_option = self.driver.find_element(By.XPATH, self.xpath_for_new_indent)
         new_indent_option.click()
-        new_indent_pop_up = self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_new_indent_pop_up)))
-        new_indent_pop_up.click()
-        # self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_items_in_table)))
-        # table_item = self.driver.find_element(By.XPATH, self.xpath_for_items_in_table)
-        # # table_item.click()
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_new_indent_pop_up)))
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_items_in_table)))
+        table_item = self.driver.find_element(By.XPATH, self.xpath_for_items_in_table)
+        table_item.click()
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_approve_button)))
         approve_button = self.driver.find_element(By.XPATH, self.xpath_for_approve_button)
         approve_button.click()
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_approve_this_indent_pop_up)))
         yes_button_approve = self.driver.find_element(By.XPATH, self.xpath_for_yes_button_in_approve_this_indent_pop_up)
         yes_button_approve.click()
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_home_button)))
-        home_button = self.driver.find_element(By.XPATH, self.xpath_for_home_button)
-        home_button.click()
+        # self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_home_button)))
+        # home_button = self.driver.find_element(By.XPATH, self.xpath_for_home_button)
+        # home_button.click()
 
     ################## Indent Issue #####################
-    def indent_issue(self):
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_inventory_option)))
-        inventory_option = self.driver.find_element(By.XPATH, self.xpath_for_inventory_option)
-        inventory_option.click()
+    def select_options_from_inventory_dropdown_indent_issue(self):
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_inventory_option_dropdown)))
         inventory_dropdown_option = self.driver.find_element(By.XPATH, self.xpath_for_inventory_option_dropdown)
         inventory_ops = Select(inventory_dropdown_option)
         for i in inventory_ops.options:
             if i.text.strip() == 'A-B1- PHARMACY MAIN STORE':
                 i.click()
-        self.wait.until(expected_conditions.visibility_of_element_located(
-            (By.XPATH, self.xpath_for_yes_button_in_inventory_pop_up)))
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_yes_button_in_inventory_pop_up)))
         yes_Button = self.driver.find_element(By.XPATH, self.xpath_for_yes_button_in_inventory_pop_up)
         yes_Button.click()
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_indent_issue_option)))
-        indent_issue = self.driver.find_element(By.XPATH, self.xpath_for_indent_issue_option)
-        indent_issue.click()
-        # Wait for submenu <ul> to appear
+
+    def Indent_options_select_indent_issue(self, option_name):
+        self.wait.until(
+            expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_search_field_in_inventory)))
+        search_field = self.driver.find_element(By.XPATH, self.xpath_for_search_field_in_inventory)
+        search_field.send_keys(option_name)
+        option_under_indent_issue = self.driver.find_element(By.XPATH, self.xpath_for_indent_issue_option)
+        self.driver.execute_script("arguments[0].click();", option_under_indent_issue)
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, "//ul[@id='collapseMulti2']")))
 
         # Click "Indent Issue" link
         indent_issue_link = self.driver.find_element(By.XPATH, "//ul[@id='collapseMulti2']/li[1]/a")
-        indent_issue_link.click()
+        self.driver.execute_script("arguments[0].click();", indent_issue_link)
 
+
+    def indent_issue(self):
         self.wait.until(
-            expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_new_button)))
+            expected_conditions.element_to_be_clickable((By.XPATH, self.xpath_for_new_button)))
         new_button = self.driver.find_element(By.XPATH, self.xpath_for_new_button)
-        new_button.click()
+        self.driver.execute_script("arguments[0].click();", new_button)
 
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_indent_issue_pop_up)))
+        time.sleep(5)
+
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_first_element_in_indent_issue_pop_up)))
         first_element = self.driver.find_element(By.XPATH, self.xpath_for_first_element_in_indent_issue_pop_up)
-        first_element.click()
+        self.driver.execute_script("arguments[0].click();", first_element)
+        time.sleep(2)
 
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_save_button_in_indent_issue)))
-        save_button_in_indent_issue = self.driver.find_element(By.XPATH, self.xpath_for_save_button_in_indent_issue)
-        save_button_in_indent_issue.click()
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_manual_mode_radio_button)))
+        manual_mode = self.driver.find_element(By.XPATH, self.xpath_for_manual_mode_radio_button)
+        self.driver.execute_script("arguments[0].click();", manual_mode)
 
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_save_pop_in_indent_issue)))
-        yes_button_indent_save_pop_up = self.driver.find_element(By.XPATH, self.xpath_for_yes_button_in_indent_issue_save_pop_up)
-        yes_button_indent_save_pop_up.click()
+        # xpath_for_table3_indent_issue ="//table[@id='tbl_IssuedItems']//tbody"
+        # rows = self.driver.find_elements(By.XPATH, xpath_for_table3_indent_issue)
+        # time.sleep(2)
+        #
+        # for row in rows:
+        #     try:
+        #         item = row.find_element(By.XPATH, ".//td[@ctype='itemname']").text.strip()
+        #         batch = row.find_element(By.XPATH, ".//td[@ctype='batch']").text.strip()
+        #
+        #         # Debug logging to verify what Selenium reads
+        #         print(f"Row item: '{item}' | Row batch: '{batch}'")
+        #
+        #         if item == item_names and batch == batch_numbers:
+        #             qty_input = row.find_element(By.XPATH, ".//td[@ctype='dueqty']//input")
+        #             qty_input.clear()
+        #             qty_input.send_keys(str(quantity_to_be_filled))
+        #             qty_input.send_keys(Keys.TAB)  # trigger HIS JS functions
+        #             print(f"✅ Filled {quantity_to_be_filled} for item {item}, batch {batch}")
+        #             break  # stop once match is found
+        #     except Exception as e:
+        #         print(f"Skipping row due to error: {e}")
+        #         continue
 
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_print_report_pop_up)))
-        yes_button_print_report_pop_up = self.driver.find_element(By.XPATH, self.xpath_for_yes_button_in_print_report_pop_up)
-        yes_button_print_report_pop_up.click()
 
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_3_bars)))
-        three_bars_indent_issue = self.driver.find_element(By.XPATH, self.xpath_for_3_bars)
-        three_bars_indent_issue.click()
+        # self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_save_button_in_indent_issue)))
+        # save_button_in_indent_issue = self.driver.find_element(By.XPATH, self.xpath_for_save_button_in_indent_issue)
+        # self.driver.execute_script("arguments[0].click();", save_button_in_indent_issue)
+        # time.sleep(8)
+        #
+        # self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_save_pop_in_indent_issue)))
+        # yes_button_indent_save_pop_up = self.driver.find_element(By.XPATH, self.xpath_for_yes_button_in_indent_issue_save_pop_up)
+        # yes_button_indent_save_pop_up.click()
+        # time.sleep(8)
+        #
+        # self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_print_report_pop_up)))
+        # yes_button_print_report_pop_up = self.driver.find_element(By.XPATH, self.xpath_for_yes_button_in_print_report_pop_up)
+        # yes_button_print_report_pop_up.click()
+        # time.sleep(8)
 
-        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)))
-        home_button_indent_issue = self.driver.find_element(By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)
-        home_button_indent_issue.click()
+        # self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_3_bars)))
+        # three_bars_indent_issue = self.driver.find_element(By.XPATH, self.xpath_for_3_bars)
+        # three_bars_indent_issue.click()
+
+        # self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)))
+        # home_button_indent_issue = self.driver.find_element(By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)
+        # home_button_indent_issue.click()
 
     def indent_item_receipt(self):
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_inventory_option)))
@@ -261,7 +300,7 @@ class HIS_Indents:
         inventory_dropdown_option = self.driver.find_element(By.XPATH, self.xpath_for_inventory_option_dropdown)
         inventory_ops = Select(inventory_dropdown_option)
         for i in inventory_ops.options:
-            if i.text.strip() == 'A-3-HDU 1':
+            if i.text.strip() == 'A-9-NS 4':
                 i.click()
         self.wait.until(expected_conditions.visibility_of_element_located(
             (By.XPATH, self.xpath_for_yes_button_in_inventory_pop_up)))

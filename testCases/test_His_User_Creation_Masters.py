@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from Utilities.customLogger import LogGen
 from page_Objects.Page_Object_HIS_User_Creation_Masters import His_User_Registration
 from page_Objects.Page_Objects_HIS_Login_Page import His_Login_Page
-from page_Objects.Page_Objects_HIS_Front_Office import His_OutPatient_Registration
+from page_Objects.Page_Objects_HIS_Front_Office_Registration import His_OutPatient_Registration
 from testCases.test_His_Login_page import TestHISLoginPage
 
 

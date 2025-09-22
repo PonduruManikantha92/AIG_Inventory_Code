@@ -2,6 +2,7 @@ import time
 
 import pytest
 import pandas as pd
+from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
@@ -20,6 +21,7 @@ class TestIndent(TestHIS_Login_Page):
         data_two = pandas_excel('Indent_Issue')
         return {'items': data_one, 'issue': data_two}
 
+    @pytest.mark.smoke
     def test_indent_indents(self, indent_data, test_his_login_page):
         driver = test_his_login_page
         option_name = indent_data['items']['option_name'].iloc[0]
@@ -41,36 +43,98 @@ class TestIndent(TestHIS_Login_Page):
         self.logger.info("********search_and_click_indent_items********")
         for index, row in indent_data['items'].iterrows():
             search_text = str(row['search_text'])
-            indent_items.search_and_click_indent_items(search_text)
-        self.logger.info("********select_items_from_table2********")
-        for index, row in indent_data['items'].iterrows():
             value = str(row['value'])
-            indent_items.select_items_from_table2(str(value))
+            indent_items.search_and_click_indent_items(search_text, str(value))
 
         self.logger.info("******save_indent_items******")
         indent_items.save_indent_items()
+        self.logger.info("*******click_home_button*******")
+        indent_items.click_home_button()
 
+    @pytest.mark.smoke
     def test_indent_approval(self, indent_data, test_his_login_page):
         driver = test_his_login_page
         indent_approval = (HIS_Indents(driver))
-        option_name_indent_approval = indent_data['items']['option_name'].iloc[1]
+        option_name = indent_data['items']['option_name'].iloc[1]
 
-        self.logger.info("********click the menu icon********")
-        indent_approval.click_show_menu_icon()
+        self.logger.info("*********Select the Facility*************")
+        indent_approval.select_facility()
+        self.logger.info("*******Click Inventory Option********")
+        indent_approval.click_inventory_option()
+        self.logger.info("*******Select_options_from_inventory_dropdown*******")
+        indent_approval.select_options_from_inventory_dropdown()
+        self.logger.info("***********Indent_options_select************")
+        indent_approval.Indent_options_select_indent_approval(option_name)
         self.logger.info("********click_indent_approval********")
         indent_approval.indent_approval()
+        self.logger.info("*******click_home_button*******")
+        indent_approval.click_home_button()
 
+    @pytest.mark.smoke
     def test_indent_issue(self, indent_data, test_his_login_page):
         driver = test_his_login_page
-        indent_issue = (HIS_Indents(driver))
+        indent_issue = HIS_Indents(driver)
+        option_name = indent_data['items']['option_name'].iloc[2]
+
+        self.logger.info("*********Select the Facility*************")
+        indent_issue.select_facility()
+        self.logger.info("*******Click Inventory Option********")
+        indent_issue.click_inventory_option()
+        self.logger.info("*******Select_options_from_inventory_dropdown*******")
+        indent_issue.select_options_from_inventory_dropdown_indent_issue()
+        self.logger.info("***********Indent_options_select************")
+        indent_issue.Indent_options_select_indent_issue(option_name)
         self.logger.info("*******indent_issue*******")
         indent_issue.indent_issue()
+        xpath_for_table3_indent_issue = "//table[@id='tbl_IssuedItems']//tbody"
+        rows = driver.find_elements(By.XPATH, xpath_for_table3_indent_issue)
+
+        for index, row in indent_data['issue'].iterrows():
+            item_name = str(row['Item_name']).strip()
+            batch_number = str(row['Batch']).strip()
+            quantity_to_be_filled = str(row['Quantity']).strip()
+
+            xpath_for_indiv_row = f"""
+                //table[@id='tbl_IssuedItems']//tbody/tr[
+                    td[normalize-space(text())='{item_name}']
+                    and 
+                    td[normalize-space(text())='{batch_number}']
+                ]//td[@ctype='dueqty']//input
+            """
+
+            try:
+                qty_input = driver.find_element(By.XPATH, xpath_for_indiv_row)
+                qty_input.clear()
+                qty_input.send_keys(quantity_to_be_filled)
+                qty_input.send_keys(Keys.TAB)
+                print(f"✅ Filled {quantity_to_be_filled} for {item_name}, batch {batch_number}")
+            except Exception as e:
+                print(f"❌ Could not find row for {item_name}, batch {batch_number}: {e}")
+
+        xpath_for_save_button = "//i[@class='fa fa-save']"
+        save_button = WebDriverWait(driver, 10).until(expected_conditions.element_to_be_clickable((By.XPATH, xpath_for_save_button)))
+        save_button.click()
+        time.sleep(5)
+
+        xpath_for_save_this_record_pop = '//div[@id="popup_Conforim"]//div[@id="popup280"]'
+        yes_button = WebDriverWait(driver, 10).until(expected_conditions.element_to_be_clickable((By.ID, "btnYes")))
+        yes_button.click()
+        time.sleep(5)
+
+        self.logger.info("*******click_home_button*******")
+        indent_issue.click_home_button()
+        time.sleep(60)
+
 
     def test_indent_item_receipt(self, indent_data, test_his_login_page):
         driver = test_his_login_page
         indent_item_receipt = (HIS_Indents(driver))
+        self.logger.info("*********Select the Facility*************")
+        indent_item_receipt.select_facility()
         self.logger.info("*******indent_item_receipt*******")
         indent_item_receipt.indent_item_receipt()
+        self.logger.info("*******click_home_button*******")
+        indent_item_receipt.click_home_button()
         time.sleep(20)
 
 

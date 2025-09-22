@@ -56,7 +56,7 @@ class HIS_Adjustments:
         inventory_dropdown_option = self.driver.find_element(By.XPATH, self.xpath_for_inventory_option_dropdown)
         inventory_ops = Select(inventory_dropdown_option)
         for i in inventory_ops.options:
-            if i.text.strip() == 'A-3-HDU 2':
+            if i.text.strip() == 'A-9-NS 7':
                 i.click()
         self.wait.until(expected_conditions.visibility_of_element_located(
             (By.XPATH, self.xpath_for_yes_button_in_inventory_pop_up)))
@@ -92,10 +92,11 @@ class HIS_Adjustments:
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_search_option)))
         search_option = self.driver.find_element(By.XPATH, self.xpath_for_search_option)
         search_option.send_keys(adj_item_name)
-        xpath_for_option_item = f"//tr//td[text()='{adj_item_name}']"
+        xpath_for_option_item = f"//tr//td[normalize-space(text())='{adj_item_name.strip()}']"
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, xpath_for_option_item)))
         option = self.driver.find_element(By.XPATH, xpath_for_option_item)
-        option.click()
+        self.driver.execute_script("arguments[0].click();", option)
+
         xpath_for_batches_suction_catherer = "//table[@id='tbldrugdtaillist']"
         table_2_elements = self.driver.find_elements(By.XPATH, xpath_for_batches_suction_catherer)
         xpath_of_numbers_comp = "//table[@id='tbldrugdtaillist']//td[text()='NOS']"

@@ -19,6 +19,7 @@ class TestAdjustments(TestHIS_Login_Page):
 
         return {'items': data_one, 'adjust': data_adjustments}
 
+    @pytest.mark.smoke
     def test_adjustments(self, test_his_login_page, adjustment_data):
         driver = test_his_login_page
         option_name = adjustment_data['items']['option_name'].iloc[0]

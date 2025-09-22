@@ -55,6 +55,11 @@ class His_OP_Billing:
         self.xpath_for_3_bars = "//img[@id='showmenuIcon']"
         self.xpath_for_home_button_after_clicking_3_bars = "//a[normalize-space()='HOME']"
         self.xpath_for_home_button = "//img[@id='showmenuIcon1']"
+        self.xpath_for_Amount_in_process_payment = "//td//input[@ctype='amount']"
+        self.xpath_for_Authorised_by = "//select[@id='ddlAuthorised']"
+        self.xpath_for_remarks = "//span//input[@id='authorisedremarks']"
+        self.xpath_for_verify = "//button[@id='authorised_verify']"
+
 
 
 
@@ -77,19 +82,19 @@ class His_OP_Billing:
                     continue
         except Exception as e:
             print(f"Exception in options_under_home_in_billing: {e}")
-    #
-    def enter_the_uhid(self, uhid):
+
+    def enter_the_uhid(self, due_settlement_uhid):
 
         uhid_locator = (By.XPATH, self.xpath_for_uhid_field_in_billing_page)
         self.wait.until(expected_conditions.presence_of_element_located(uhid_locator))
         try:
             enter_uhid = self.driver.find_element(*uhid_locator)
             enter_uhid.clear()  # Optional: clear the field first
-            enter_uhid.send_keys(uhid, Keys.ENTER)
+            enter_uhid.send_keys(due_settlement_uhid, Keys.ENTER)
         except StaleElementReferenceException:
             # Re-locate the element if it's stale
             enter_uhid = self.driver.find_element(*uhid_locator)
-            enter_uhid.send_keys(uhid, Keys.ENTER)
+            enter_uhid.send_keys(due_settlement_uhid, Keys.ENTER)
         try:
             self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_op_registration_update_pop_up)))
             op_registration_update_pop_up_close_button = self.driver.find_element(By.XPATH, self.xpath_for_op_registration_update_pop_up_close_button)
@@ -113,7 +118,7 @@ class His_OP_Billing:
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_search_doctor_name)))
         search_doctor_name = self.driver.find_element(By.XPATH, self.xpath_for_search_doctor_name)
         search_doctor_name.send_keys(Doctor_name)
-        xpath_for_search_doctor_in_doctors_table = "//li[contains(text(), 'RAKESH KALAPALA')]"
+        xpath_for_search_doctor_in_doctors_table = "//li[contains(text(), 'ANNE UDAY KIRAN  ')]"
         doc_name = self.driver.find_element(By.XPATH, xpath_for_search_doctor_in_doctors_table)
         doc_name.click()
 
@@ -204,15 +209,16 @@ class His_OP_Billing:
         yes_button = self.driver.find_element(By.XPATH, self.xpath_for_yes_button_in_generate_bill_pop_up)
         yes_button.click()
 
-    def process_payment(self):
+    def click_save_button_in_process_payment(self):
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_process_payment)))
         save_button = self.driver.find_element(By.XPATH, self.xpath_for_save_button)
-        save_button.click()
+        self.driver.execute_script("argument[0].click();", save_button)
 
     def print_the_bill(self):
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_print_the_bill_pop_up)))
         no_button = self.driver.find_element(By.XPATH, self.xpath_for_no_button_in_print_the_bill_pop_up_footer)
         no_button.click()
+        time.sleep(5)
 
     def click_refresh_button(self):
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_refresh_button)))
@@ -227,3 +233,36 @@ class His_OP_Billing:
         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)))
         home_button = self.driver.find_element(By.XPATH, self.xpath_for_home_button_after_clicking_3_bars)
         home_button.click()
+
+    ############# Process Payment for Due Settlement #######################
+    def amount_field_in_process_payment_Billing(self):
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_process_payment)))
+        amount_field = self.driver.find_element(By.XPATH, self.xpath_for_Amount_in_process_payment)
+        amount_field.clear()
+        amount_field.send_keys("100")
+
+    def select_authorized_by(self):
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_Authorised_by)))
+        Authorised_by = self.driver.find_element(By.XPATH, self.xpath_for_Authorised_by)
+        authorised_by = Select(Authorised_by)
+        for option in authorised_by.options:
+            if option.text.strip() == 'CAPRI JALOTA':
+               option.click()
+
+    def enter_remarks(self):
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_remarks)))
+        remarks = self.driver.find_element(By.XPATH, self.xpath_for_remarks)
+        remarks.send_keys('jksbdkfs')
+
+    def click_the_verify_button(self):
+        self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.xpath_for_verify)))
+        verify_button = self.driver.find_element(By.XPATH, self.xpath_for_verify)
+        verify_button.click()
+
+
+
+
+
+
+
+

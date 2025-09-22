@@ -15,7 +15,7 @@ class Receipt_Direct:
         self.driver = None
 
     def read_an_excel_file(self):
-        file_path = "C:\\Users\\10013887\\PycharmProjects\\Testing_Repo\\Excel_Test_Data\\Inventory_Test_Data.xlsx"
+        file_path = "C:\\Users\\10013887\\Project_AIG\\Excel_Test_Data\\Inventory_Test_Data.xlsx"
         data = pd.read_excel(file_path, sheet_name='LoginPage')
         data_one = pd.read_excel(file_path, sheet_name='Inventory')
         data_two = pd.read_excel(file_path, sheet_name='Direct_Receipt_Medicines')
