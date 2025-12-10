@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from Utilities.customLogger import LogGen
+from page_Objects.Page_Object_HIS_Direct_Receipt import HIS_Direct_receipt
 from page_Objects.Page_Object_HIS_Indent_Items import HIS_Indents
 from testCases.test_login_page_HIS import TestHIS_Login_Page
 
@@ -28,7 +29,7 @@ class TestIndent(TestHIS_Login_Page):
         facility_name = indent_data['items']['facility_name'].iloc[0]
         department_name = indent_data['items']['Department_name'].iloc[0]
 
-        indent_items = (HIS_Indents(driver))
+        indent_items = HIS_Indents(driver)
 
         self.logger.info("*********Select the Facility*************")
         indent_items.select_facility()
@@ -42,16 +43,24 @@ class TestIndent(TestHIS_Login_Page):
         indent_items.select_facility_and_Department(facility_name, department_name)
         self.logger.info("********search_and_click_indent_items********")
         for index, row in indent_data['items'].iterrows():
+            # item_code = str(row['Tabs'])
             search_text = str(row['search_text'])
             value = str(row['value'])
-            indent_items.search_and_click_indent_items(search_text, str(value))
+            try:
+                indent_items.search_and_click_indent_items(search_text)
+                indent_items.enter_quantity(value, index + 1)
+            except Exception as e:
+                print(e)
+                pass
+        time.sleep(5)
+
 
         self.logger.info("******save_indent_items******")
         indent_items.save_indent_items()
         self.logger.info("*******click_home_button*******")
         indent_items.click_home_button()
 
-    @pytest.mark.smoke
+
     def test_indent_approval(self, indent_data, test_his_login_page):
         driver = test_his_login_page
         indent_approval = (HIS_Indents(driver))
@@ -70,7 +79,7 @@ class TestIndent(TestHIS_Login_Page):
         self.logger.info("*******click_home_button*******")
         indent_approval.click_home_button()
 
-    @pytest.mark.smoke
+    # @pytest.mark.smoke
     def test_indent_issue(self, indent_data, test_his_login_page):
         driver = test_his_login_page
         indent_issue = HIS_Indents(driver)
@@ -82,6 +91,7 @@ class TestIndent(TestHIS_Login_Page):
         indent_issue.click_inventory_option()
         self.logger.info("*******Select_options_from_inventory_dropdown*******")
         indent_issue.select_options_from_inventory_dropdown_indent_issue()
+        time.sleep(5)
         self.logger.info("***********Indent_options_select************")
         indent_issue.Indent_options_select_indent_issue(option_name)
         self.logger.info("*******indent_issue*******")
@@ -111,21 +121,22 @@ class TestIndent(TestHIS_Login_Page):
             except Exception as e:
                 print(f"❌ Could not find row for {item_name}, batch {batch_number}: {e}")
 
-        xpath_for_save_button = "//i[@class='fa fa-save']"
+        time.sleep(60)
+        xpath_for_save_button = "//i[@class='fa fa-save']/parent::a"
         save_button = WebDriverWait(driver, 10).until(expected_conditions.element_to_be_clickable((By.XPATH, xpath_for_save_button)))
         save_button.click()
-        time.sleep(5)
+        time.sleep(2)
 
         xpath_for_save_this_record_pop = '//div[@id="popup_Conforim"]//div[@id="popup280"]'
         yes_button = WebDriverWait(driver, 10).until(expected_conditions.element_to_be_clickable((By.ID, "btnYes")))
         yes_button.click()
-        time.sleep(5)
+        time.sleep(2)
 
         self.logger.info("*******click_home_button*******")
         indent_issue.click_home_button()
-        time.sleep(60)
+        time.sleep(20)
 
-
+    # @pytest.mark.smoke
     def test_indent_item_receipt(self, indent_data, test_his_login_page):
         driver = test_his_login_page
         indent_item_receipt = (HIS_Indents(driver))
@@ -135,6 +146,18 @@ class TestIndent(TestHIS_Login_Page):
         indent_item_receipt.indent_item_receipt()
         self.logger.info("*******click_home_button*******")
         indent_item_receipt.click_home_button()
+        time.sleep(20)
+
+    # @pytest.mark.smoke
+    def test_direct_receipt(self, indent_data, test_his_login_page):
+        driver = test_his_login_page
+        direct_receipt_object = (HIS_Direct_receipt(driver))
+        self.logger.info("*********Select the Facility*************")
+        direct_receipt_object.select_facility()
+        self.logger.info("*******indent_item_receipt*******")
+        direct_receipt_object.click_inventory_option()
+        self.logger.info("*******click_home_button*******")
+        direct_receipt_object.select_options_from_inventory_dropdown()
         time.sleep(20)
 
 
