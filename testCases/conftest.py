@@ -25,20 +25,21 @@ def browser(request):
 
 @pytest.fixture(scope="class")
 def browser_setup(browser):
-    if browser == "chrome":
-        chrome_options = ChromeOptions()
-        chrome_options.add_argument("--disable-features=SSLHandshake")
-        chrome_options.add_argument("--allow-running-insecure-content")  # Allow HTTP content instead of https content
-        chrome_options.add_argument("--ignore-certificate-errors")
-        chrome_options.add_argument("--disable-features=BlockInsecurePrivateNetworkRequests")
-        driver = webdriver.Chrome(options=chrome_options)
-    elif browser == "edge":
+    if browser == "edge":
         edge_options = EdgeOptions()
         edge_options.add_argument("--ignore-certificate-errors")
         edge_options.add_argument("--allow-running-insecure-content")  # Allow HTTP content instead of https content
         edge_options.add_argument("--disable-features=BlockInsecurePrivateNetworkRequests")
         edge_options.add_argument("--disable-features=SSLHandshake")
         driver = webdriver.Edge(options=edge_options)
+    elif browser == "chrome":
+        chrome_options = ChromeOptions()
+        chrome_options.add_argument("--disable-features=SSLHandshake")
+        chrome_options.add_argument("--allow-running-insecure-content")  # Allow HTTP content instead of https content
+        chrome_options.add_argument("--ignore-certificate-errors")
+        chrome_options.add_argument("--disable-features=BlockInsecurePrivateNetworkRequests")
+        driver = webdriver.Chrome(options=chrome_options)
+
     else:
         raise ValueError(f"Unsupported browser: {browser}")
 
@@ -66,7 +67,7 @@ def pytest_metadata(metadata):
 @pytest.fixture(scope="class")
 def pandas_excel():
     def _load_data(sheet_name):
-        file_path = r"C:\Users\10013887\Project_AIG\TestData\HIS_DATA_WorkBook.xlsx"
+        file_path = r"C:\Users\Ah$admin\PycharmProjects\Project_AIG\TestData\HIS_DATA_WorkBook.xlsx"
         return pd.read_excel(file_path, sheet_name=sheet_name)
     return _load_data
 
